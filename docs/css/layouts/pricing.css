@@ -194,10 +194,21 @@ p {
     color: #888;
     text-align: center;
 }
-    .footer a {
-        color: #ddd;
-    }
 
+.footer a {
+    color: #ddd;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+td {
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
 
 
 /*
