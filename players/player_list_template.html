@@ -48,12 +48,15 @@
 <div class="l-content information">
 
     {% for plr in players %}
-        <div class="pure-u-1 pure-u-md-1-2">
+        <div class="pure-u-1 pure-u-md-1-2 player_box">
             <div class="l-box">
                 <h3 class="information-head">{{ plr.github_name }}</h3>
-                <p>
-                    <img src="{{ plr.raw_img }}">
-                </p>
+                <canvas class="avatar" data-avatar-src="{{ plr.raw_img }}"
+                        width="100px" height="100px"></canvas>
+                <div class="player_info">
+                    <span class="player_xp">{{ plr.xp }} XP</span> <br>
+                    <span class="player_level">{{ plr.level_name }}</span>
+                </div>
             </div>
         </div>
     {% endfor %}
@@ -69,5 +72,20 @@
         <a href="https://purecss.io/"> Framework Pure CSS</a> - <a href="https://purecss.io/layouts/"> Tema Pricing Table</a>
     </p>
 </div>
+
+<script type="text/javascript">
+    var canvases = document.querySelectorAll("canvas.avatar");
+    for (var i = 0; i < canvases.length; i++) {
+        var src = canvases[i].dataset.avatarSrc;
+        var ctx = canvases[i].getContext("2d");
+        var img = document.createElement("img");
+        img.src = src;
+        img.onload = function (ev) {
+                ctx.drawImage(img, 0, 0, img.width/4, img.height/4, 0, 0, img.width/2, img.height/2);
+            };
+        
+    }
+</script>
+
 </body>
 </html>

@@ -10,6 +10,8 @@ if __name__ == "__main__":
     
     for plr in players:
         plr["raw_img"] = 'https://github.com/igordsm/dev-aberto/raw/master/players/avatar_data/' + plr["avatar_image"]
+        plr["xp"] = 0
+        plr["level_name"] = "Newbie"
 
     out = t.render(players=players)
 

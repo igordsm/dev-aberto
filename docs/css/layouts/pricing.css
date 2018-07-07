@@ -210,6 +210,14 @@ td {
     text-align: center;
 }
 
+.avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.player_info {
+    margin-top: 50px;
+}
 
 /*
  * -- TABLET MEDIA QUERIES --
