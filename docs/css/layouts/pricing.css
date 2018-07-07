@@ -219,6 +219,19 @@ td {
     margin-top: 50px;
 }
 
+a {
+    color: #526066;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #526066;
+}
+
+.player-profile {
+    display: none;
+}
+
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner
