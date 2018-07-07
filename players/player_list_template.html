@@ -48,6 +48,7 @@
 <div class="l-content information player-details">
     {% for plr in players %}
         <div class="player-profile" id="player-{{ plr.github_name }}">
+                <a href="#"><span class="close">X</span></a>
             <canvas class="avatar" data-avatar-src="{{ plr.raw_img }}"
                 width="100px" height="100px"></canvas>
             <h2>{{ plr.github_name }}</h2>
@@ -63,13 +64,13 @@
                     </a>
                 </span>
             </div>
-            
-            <p>Skills:</p>
-            {% for sk in plr.skills %}
-                {{ sk.name }} <br>
-            {% endfor %}
-            
 
+            <div class="skill-list">
+                <h3>Skills:</h3>
+                {% for sk in plr.skills %}
+                    {{ sk.name }} <br>
+                {% endfor %}
+            </div>
         </div>
     {% endfor %}
 </div>
@@ -117,10 +118,13 @@
         
     }
 
-    window.addEventListener("hashchange", function (ev) {
+    function parse_hash(ev) {
         let h = window.location.hash.substr(1);
         show_profile("player-" + h);
-    });
+    }
+
+    window.addEventListener("hashchange", parse_hash);
+    parse_hash(null);
 
     function show_profile (pid) {
         var profiles = document.querySelectorAll(".player-profile");

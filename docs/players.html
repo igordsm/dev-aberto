@@ -48,6 +48,7 @@
 <div class="l-content information player-details">
     
         <div class="player-profile" id="player-igordsm">
+                <a href="#"><span class="close">X</span></a>
             <canvas class="avatar" data-avatar-src="https://github.com/igordsm/dev-aberto/raw/master/players/avatar_data/yoda.png"
                 width="100px" height="100px"></canvas>
             <h2>igordsm</h2>
@@ -63,13 +64,13 @@
                     </a>
                 </span>
             </div>
-            
-            <p>Skills:</p>
-            
-                Primeiro Bug <br>
-            
-            
 
+            <div class="skill-list">
+                <h3>Skills:</h3>
+                
+                    Primeiro Bug <br>
+                
+            </div>
         </div>
     
 </div>
@@ -117,10 +118,13 @@
         
     }
 
-    window.addEventListener("hashchange", function (ev) {
+    function parse_hash(ev) {
         let h = window.location.hash.substr(1);
         show_profile("player-" + h);
-    });
+    }
+
+    window.addEventListener("hashchange", parse_hash);
+    parse_hash(null);
 
     function show_profile (pid) {
         var profiles = document.querySelectorAll(".player-profile");

@@ -1,0 +1,10 @@
+[
+    {
+        "id": 0,
+        "name": "Primeiro Bug",
+        "requisite": "Enviar um pull request consertando um bug.",
+        "type": "Code",
+        "xp_value": 10,
+        "badge": "primeiro_bug.svg"
+    }
+]

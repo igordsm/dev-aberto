@@ -230,6 +230,28 @@ a:visited {
 
 .player-profile {
     display: none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.skill-list {
+    margin-left: 110px;
+}
+
+.close {
+    display: block;
+    float: right;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
 }
 
 /*
