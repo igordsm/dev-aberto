@@ -245,7 +245,7 @@ a:visited {
 }
 
 .badge {
-    max-width: 64px;
+    max-width: 80px;
     max-height: 64px;
 }
 
@@ -255,6 +255,7 @@ a:visited {
 
 .badge:hover + .skill-info, .skill-info:hover {
     display: block;
+    z-index: 1000;
 }
 
 .skill {
