@@ -68,7 +68,12 @@
             <div class="skill-list">
                 <h3>Skills:</h3>
                 {% for sk in plr.skills %}
-                    {{ sk.name }} <br>
+                    <div class="skill">
+                        <img src="{{ sk.raw_img }}" class="badge miss">
+                        <div class="skill-info">
+                            {{ sk.requisite }}
+                        </div>
+                    </div>
                 {% endfor %}
             </div>
         </div>

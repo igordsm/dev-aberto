@@ -244,6 +244,38 @@ a:visited {
     margin-left: 110px;
 }
 
+.badge {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.badge.miss {
+    filter: grayscale(100%);
+}
+
+.badge:hover + .skill-info, .skill-info:hover {
+    display: block;
+}
+
+.skill {
+    position: relative;
+    display: inline-block;
+}
+
+.skill-info {
+    position: absolute;
+    width: 200px;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+
+    padding: 10px;
+
+    background: #555555;
+    color: #e7e7e7;
+    border-radius: 10px;
+}
+
 .close {
     display: block;
     float: right;
