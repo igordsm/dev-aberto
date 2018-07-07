@@ -11,7 +11,7 @@ if __name__ == "__main__":
     with open('skills/skill_list.json') as pfp:
         skills = json.load(pfp)
         for sk in skills:
-            sk["raw_img"] = "https://github.com/igordsm/dev-aberto/raw/master/skills/images/" + sk["badge"]
+            sk["raw_img"] = "https://raw.githubusercontent.com/igordsm/dev-aberto/master/skills/images/" + sk["badge"] + "?sanitize=true"
 
     # parse achievement list and set proof and achieved flags.
 
