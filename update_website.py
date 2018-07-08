@@ -13,6 +13,15 @@ if __name__ == "__main__":
         for sk in skills:
             sk["raw_img"] = "https://raw.githubusercontent.com/igordsm/dev-aberto/master/skills/images/" + sk["badge"] + "?sanitize=true"
 
+    with open('players/achievement_list.json') as pfp:
+        achievement_list = json.load(pfp)
+        
+        achievement_per_player = {}
+        for ach in achievement_list:
+            if not ach["player_uuid"] in achievement_per_player:
+                achievement_per_player[ach["player_uuid"]] = []
+            achievement_per_player[ach["player_uuid"]].append(ach)
+
     # parse achievement list and set proof and achieved flags.
 
     for plr in players:
@@ -21,9 +30,9 @@ if __name__ == "__main__":
         plr["level_name"] = "Newbie"
 
         plr["skills"] = []
-        for sk in skills:
-            plr["skills"].append(sk.copy())
-            plr["skills"][-1]["achieved"] = False
+        for ach in achievement_per_player[plr["uuid"]]:
+            plr["xp"] += skills[ach["skill_id"]]["xp_value"]
+            plr["skills"].append(skills[ach["skill_id"]].copy())
         
         
 

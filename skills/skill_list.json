@@ -1,6 +1,14 @@
 [
     {
         "id": 0,
+        "name": "Professor",
+        "requisite": "Confere poderes extraordinários ao professor da disciplina.",
+        "type": "Code",
+        "xp_value": 1000,
+        "badge": "teacher.svg"
+    },
+    {
+        "id": 1,
         "name": "Primeiro Bug",
         "requisite": "Enviar um pull request consertando um bug.",
         "type": "Code",
@@ -8,7 +16,7 @@
         "badge": "primeiro_bug.svg"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Seu desejo é uma ordem",
         "requisite": "Enviou PR para uma issue com a tag Wishlist.",
         "type": "Code",
