@@ -107,7 +107,7 @@ Blackboard será usado para avisos somente. Todo conteúdo estará disponível n
 
 - Cada aluno criará um *avatar* na disciplina ([meu avatar](https://igordsm.github.io/dev-aberto/players.html#igordsm))
 - Contribuições a projetos geram XP
-- Ao cumprir alguns objetivos você ganha uma *skill* ([todas skills](https://igordsm.github.io/dev-aberto/))
+- Ao cumprir alguns objetivos você ganha uma *skill* ([todas skills](https://igordsm.github.io/dev-aberto/skills.html))
 
 #
 
