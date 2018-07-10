@@ -9,6 +9,14 @@
     },
     {
         "id": 1,
+        "name": "Penso logo existo",
+        "requisite": "Completou a criação de ",
+        "type": "Code",
+        "xp_value": 2,
+        "badge": "rodin.svg"
+    },
+    {
+        "id": 2,
         "name": "Primeiro Bug",
         "requisite": "Enviar um pull request consertando um bug.",
         "type": "Code",
@@ -16,7 +24,7 @@
         "badge": "primeiro_bug.svg"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Seu desejo é uma ordem",
         "requisite": "Enviou PR para uma issue com a tag Wishlist.",
         "type": "Code",
