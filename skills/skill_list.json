@@ -10,7 +10,7 @@
     {
         "id": 1,
         "name": "Penso logo existo",
-        "requisite": "Completou a criação de ",
+        "requisite": "Completou a criação do avatar.",
         "type": "Code",
         "xp_value": 2,
         "badge": "rodin.svg"
