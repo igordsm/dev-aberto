@@ -3,7 +3,12 @@ import json
 
 if __name__ == "__main__":
     with open('players/player_list_template.html') as f:
-        t = Template(f.read())
+        player_list_page = Template(f.read())
+
+
+    with open('skills/skills.html') as f:
+        skill_list_page = Template(f.read())
+
     
     with open('players/player_list.json') as pfp:
         players = json.load(pfp)
@@ -22,8 +27,6 @@ if __name__ == "__main__":
                 achievement_per_player[ach["player_uuid"]] = []
             achievement_per_player[ach["player_uuid"]].append(ach)
 
-    # parse achievement list and set proof and achieved flags.
-
     for plr in players:
         plr["raw_img"] = 'https://github.com/igordsm/dev-aberto/raw/master/players/avatar_data/' + plr["avatar_image"]
         plr["xp"] = 0
@@ -34,9 +37,13 @@ if __name__ == "__main__":
             plr["xp"] += skills[ach["skill_id"]]["xp_value"]
             plr["skills"].append(skills[ach["skill_id"]].copy())
         
-        
+        # compute player level
 
-    out = t.render(players=players)
-
+    out = player_list_page.render(players=players)
     with open('docs/players.html', 'w') as f:
         f.write(out) 
+
+    out = skill_list_page.render(skills=skills)
+    with open('docs/skills.html', 'w') as f:
+        f.write(out) 
+
