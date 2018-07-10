@@ -219,9 +219,12 @@ td {
     margin-top: 50px;
 }
 
+.pricing-table a {
+    text-decoration: none;
+}
+
 a {
     color: #526066;
-    text-decoration: none;
 }
 
 a:visited {
