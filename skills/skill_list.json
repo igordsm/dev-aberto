@@ -30,6 +30,14 @@
         "type": "Code",
         "xp_value": 10,
         "badge": "lamp.svg"
+    },
+        {
+        "id": 4,
+        "name": "Boas maneiras",
+        "requisite": "Se apresentou nas lista de discussões de um projeto.",
+        "type": "Community",
+        "xp_value": 2,
+        "badge": "handshake.svg"
     }
 
 ]
