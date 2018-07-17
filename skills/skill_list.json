@@ -3,14 +3,14 @@
         "id": 0,
         "name": "Professor",
         "requisite": "Confere poderes extraordinários ao professor da disciplina.",
-        "type": "Code",
+        "type": "Community",
         "xp_value": 1000,
         "badge": "teacher.svg"
     },
     {
         "id": 1,
         "name": "Penso logo existo",
-        "requisite": "Completou a criação do avatar.",
+        "requisite": "Completou a criação do avatar e fez um PR no repositório da disciplina.",
         "type": "Code",
         "xp_value": 2,
         "badge": "rodin.svg"
@@ -38,6 +38,62 @@
         "type": "Community",
         "xp_value": 2,
         "badge": "handshake.svg"
+    },
+        {
+        "id": 5,
+        "name": "Tradutor",
+        "requisite": "Contribuiui com ao menos 10 strings de tradução para um projeto. ",
+        "type": "Documentation",
+        "xp_value": 5,
+        "badge": "translate.svg"
+    },
+        {
+        "id": 6,
+        "name": "Helpdesk",
+        "requisite": "Respondeu dúvida em StackOverflow, lista de emails, etc",
+        "type": "Community",
+        "xp_value": 3,
+        "badge": "helpdesk.svg"
+    },
+        {
+        "id": 7,
+        "name": "Poliglota",
+        "requisite": "Fez tradução/revisão para lingua diferente de Português/Inglês.",
+        "type": "Documentation",
+        "xp_value": 5,
+        "badge": "poliglot.svg"
+    },
+        {
+        "id": 8,
+        "name": "Iniciante",
+        "requisite": "Enviou PR para issue marcada como <i>good first bug</i>",
+        "type": "Code",
+        "xp_value": 5,
+        "badge": "beginner.svg"
+    },
+        {
+        "id": 9,
+        "name": "Salva vidas",
+        "requisite": "Enviou PR para issue marcada como <i>help wanted</i>",
+        "type": "Code",
+        "xp_value": 5,
+        "badge": "lifesaver.svg"
+    },
+        {
+        "id": 10,
+        "name": "Inovador",
+        "requisite": "Enviou PR para issue marcada como <i>feature request</i>",
+        "type": "Code",
+        "xp_value": 5,
+        "badge": "light-bulb.svg"
+    },
+        {
+        "id": 11,
+        "name": "Necromante",
+        "requisite": "Enviou PR para issue reportada há mais de 18 meses. ",
+        "type": "Code",
+        "xp_value": 5,
+        "badge": "zombie.svg"
     }
 
 ]

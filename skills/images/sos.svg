@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns1="http://sozi.baierouge.fr" id="svg2" sodipodi:docname="lifesaver.svg" inkscape:export-filename="/home/easy/Dokumentumok/Munka/PierreDesign/Design/Webdesign/ikonok/lifesaver.png" viewBox="0 0 425.6 425.6" inkscape:export-xdpi="38.063911" version="1.1" inkscape:export-ydpi="38.063911" inkscape:version="0.48.3.1 r9886">
+  <title id="title4311">Lifesaver</title>
+  <defs id="defs4">
+    <radialGradient id="radialGradient3841" gradientUnits="userSpaceOnUse" cy="324.27" cx="230" gradientTransform="matrix(1.1053 -1.527e-8 1.527e-8 1.1053 -24.211 -36.038)" r="190" inkscape:collect="always">
+      <stop id="stop4206" style="stop-color:#8c8c8c" offset="0"/>
+      <stop id="stop4208" style="stop-color:#9cbdcc" offset=".42857"/>
+      <stop id="stop4214" style="stop-color:#8c8c8c" offset=".52381"/>
+      <stop id="stop4210" style="stop-color:#ffffff" offset=".71429"/>
+      <stop id="stop4216" style="stop-color:#8c8c8c" offset=".89474"/>
+      <stop id="stop4212" style="stop-color:#9cbdcc" offset="1"/>
+    </radialGradient>
+    <radialGradient id="radialGradient4019" gradientUnits="userSpaceOnUse" cy="324.09" cx="230" gradientTransform="matrix(1.0945 -5.5071e-8 5.5071e-8 1.0945 -21.727 -32.342)" r="191.88" inkscape:collect="always">
+      <stop id="stop4188" style="stop-color:#a00000" offset="0"/>
+      <stop id="stop4190" style="stop-color:#b40016" offset=".42857"/>
+      <stop id="stop4200" style="stop-color:#780000" offset=".52381"/>
+      <stop id="stop4192" style="stop-color:#ff0101" offset=".61905"/>
+      <stop id="stop4194" style="stop-color:#ff4f01" offset=".71429"/>
+      <stop id="stop4196" style="stop-color:#ff0101" offset=".80952"/>
+      <stop id="stop4202" style="stop-color:#780000" offset=".90476"/>
+      <stop id="stop4198" style="stop-color:#b40016" offset="1"/>
+    </radialGradient>
+    <linearGradient id="linearGradient4249" y2="162.36" gradientUnits="userSpaceOnUse" x2="220" y1="522.36" x1="220" inkscape:collect="always">
+      <stop id="stop4241" style="stop-color:#787878" offset="0"/>
+      <stop id="stop4243" style="stop-color:#f0f0f0" offset="1"/>
+    </linearGradient>
+    <filter id="filter4295" inkscape:collect="always" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4297" stdDeviation="3.6000384" inkscape:collect="always"/>
+    </filter>
+    <filter id="filter4299" inkscape:collect="always" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4301" stdDeviation="9.5" inkscape:collect="always"/>
+    </filter>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="0" fit-margin-left="0" pagecolor="#ffffff" inkscape:window-height="719" inkscape:window-maximized="1" inkscape:zoom="0.98994949" inkscape:window-x="0" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="290.11042" inkscape:cy="232.0061" fit-margin-top="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1366" inkscape:pageopacity="0.0" inkscape:document-units="px">
+    <inkscape:grid id="grid2985" originy="-481.18718px" enabled="true" originx="-17.2px" visible="true" snapvisiblegridlinesonly="true" type="xygrid" empspacing="5"/>
+  </sodipodi:namedview>
+  <g id="layer1" inkscape:label="1. réteg" inkscape:groupmode="layer" transform="translate(-17.2 -145.58)">
+    <path id="path4265" style="opacity:.8;filter:url(#filter4295);fill:#000000" inkscape:connector-curvature="0" d="m127.94 166.38c-43.358 1.09-77.94 36.37-77.94 80v200c0 44.32 35.68 80 80 80h200c44.32 0 80-35.68 80-80v-200c0-44.32-35.68-80-80-80h-200c-0.6925 0-1.3743-0.0173-2.0625 0zm4.8438 5.0312h194.44c43.084 0 77.781 34.666 77.781 77.75v194.44c0 43.084-34.697 77.781-77.781 77.781h-194.44c-43.083 0-77.78-34.7-77.78-77.79v-194.44c0-43.084 34.697-77.75 77.781-77.75z"/>
+    <path id="rect4218" style="stroke-linejoin:round;stroke:#b4b4b4;stroke-linecap:round;stroke-width:2;fill:url(#linearGradient4249)" inkscape:connector-curvature="0" d="m127.94 162.38c-43.358 1.09-77.94 36.37-77.94 80v200c0 44.32 35.68 80 80 80h200c44.32 0 80-35.68 80-80v-200c0-44.32-35.68-80-80-80h-200c-0.6925 0-1.3743-0.0173-2.0625 0zm4.8438 5.0312h194.44c43.084 0 77.781 34.666 77.781 77.75v194.44c0 43.084-34.697 77.781-77.781 77.781h-194.44c-43.083 0-77.78-34.7-77.78-77.79v-194.44c0-43.084 34.697-77.75 77.781-77.75z"/>
+    <path id="path4251" style="opacity:.6;filter:url(#filter4299);fill:#000000" inkscape:connector-curvature="0" d="m230 168.38c-104.93 0-190 85.066-190 190s85.066 190 190 190 190-85.066 190-190-85.066-190-190-190zm0 80c60.751 0 110 49.249 110 110s-49.249 110-110 110-110-49.249-110-110 49.249-110 110-110z"/>
+    <path id="path2987" style="stroke:#a0a0a0;stroke-width:3;fill:url(#radialGradient3841)" inkscape:connector-curvature="0" d="m230 152.38c-104.93 0-190 85.066-190 190s85.066 190 190 190 190-85.066 190-190-85.066-190-190-190zm0 80c60.751 0 110 49.249 110 110s-49.249 110-110 110-110-49.249-110-110 49.249-110 110-110z"/>
+    <path id="path3772" style="stroke-linejoin:round;stroke:#c80000;stroke-linecap:round;stroke-width:3;fill:url(#radialGradient4019)" inkscape:connector-curvature="0" d="m230 152.38c-21.002 0-41.206 3.395-60.094 9.6875l25.31 75.93c10.932-3.6411 22.625-5.625 34.781-5.625s23.849 1.9839 34.781 5.625l25.312-75.938c-18.88-6.29-39.09-9.68-60.09-9.68zm-180.31 129.9c-6.293 18.89-9.688 39.09-9.688 60.1 0 21.002 3.395 41.206 9.6875 60.094l75.938-25.312c-3.65-10.94-5.63-22.63-5.63-34.78 0-12.156 1.9839-23.849 5.625-34.781l-75.938-25.312zm360.62 0-75.938 25.312c3.6411 10.932 5.625 22.625 5.625 34.781s-1.9839 23.849-5.625 34.781l75.938 25.312c6.29-18.88 9.69-39.08 9.69-60.08 0-21.002-3.395-41.206-9.6875-60.094zm-215.09 164.47l-25.312 75.938c18.888 6.2925 39.092 9.6875 60.094 9.6875s41.206-3.395 60.094-9.6875l-25.32-75.94c-10.932 3.6411-22.625 5.625-34.781 5.625s-23.849-1.9839-34.781-5.625z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Lifesaver</dc:title>
+        <dc:date>2012-10-30T15:11:09</dc:date>
+        <dc:description>A red vector lifesaver belt clipart created in Inkscape 0.48.</dc:description>
+        <dc:source>https://openclipart.org/detail/172940/lifesaver-by-easy-172940</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>easy</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>belt</rdf:li>
+            <rdf:li>help</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>lifesaver</rdf:li>
+            <rdf:li>red</rdf:li>
+            <rdf:li>rescue</rdf:li>
+            <rdf:li>sea</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>sos</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
