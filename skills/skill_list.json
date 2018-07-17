@@ -77,7 +77,7 @@
         "requisite": "Enviou PR para issue marcada como <i>help wanted</i>",
         "type": "Code",
         "xp_value": 5,
-        "badge": "lifesaver.svg"
+        "badge": "sos.svg"
     },
         {
         "id": 10,
