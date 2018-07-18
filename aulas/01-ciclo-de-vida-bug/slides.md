@@ -164,7 +164,7 @@ Disciplina baseada em projetos
 - Outubro/Novembro: Projeto
 	- 4 sprints de 2 semanas
 	- **Autonomia** para definir quais tarefas serão feitas
-	- Será permitido escolher o projeto que vocês quiserem
+	- Escolha de projetos será semi-livre
 
 ----------
 
@@ -217,3 +217,10 @@ Uma série de serviços e processos acompanha um software.
 1. Existe uma issue para cada aluno no github do projeto
 2. Vocês deverão criar um avatar no site da disciplina e adicionar a ele a *skill* **Penso logo existo**. 
 3. Vocês então devem enviar um PR para o projeto original. 
+
+---
+
+Desenvolvimento Aberto
+===
+
+# ![center 90%](capa.svg)
