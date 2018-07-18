@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Professor",
         "requisite": "Confere poderes extraordinários ao professor da disciplina.",
-        "type": "Community",
+        "type": "Classroom",
         "xp_value": 1000,
         "badge": "teacher.svg"
     },
@@ -11,9 +11,17 @@
         "id": 1,
         "name": "Penso logo existo",
         "requisite": "Completou a criação do avatar e fez um PR no repositório da disciplina.",
-        "type": "Code",
+        "type": "Classroom",
         "xp_value": 2,
         "badge": "rodin.svg"
+    },
+    {
+        "id": 1,
+        "name": "Documento colaborativo",
+        "requisite": "Criou, junto com a sala, um documento colaborativo de qualidade.",
+        "type": "Classroom",
+        "xp_value": 2,
+        "badge": "discussion.svg"
     },
     {
         "id": 2,
@@ -94,6 +102,14 @@
         "type": "Code",
         "xp_value": 5,
         "badge": "zombie.svg"
+    },
+        {
+        "id": 12,
+        "name": "Programação pareada",
+        "requisite": "Enviou PR em conjunto com outro aluno.",
+        "type": "Code",
+        "xp_value": 5,
+        "badge": "pair.svg"
     }
 
 ]
