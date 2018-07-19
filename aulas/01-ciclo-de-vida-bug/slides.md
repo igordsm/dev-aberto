@@ -208,18 +208,17 @@ Uma série de serviços e processos acompanha um software.
 
 # Ciclo de vida de um bug
 
-#
 
 **Atividade**: O roteiro da aula de hoje simula o processo de resolução de uma issue em um projeto.
 
-#
 
 1. Existe uma issue para cada aluno no github do projeto
 2. Vocês deverão criar um avatar no site da disciplina e adicionar a ele a *skill* **Penso logo existo**. 
 3. Vocês então devem enviar um PR para o projeto original. 
 
----
+![center 45%](thinker.png)
 
+---
 Desenvolvimento Aberto
 ===
 
