@@ -176,42 +176,37 @@ Nem sempre o que é financiado termina em um formato "aproveitável" por terceir
 ![center](capa.png)
 
 ---
+# Atividade
+
+* Pesquisar como as comunidades de alguns projetos estão organizadas
+* Produzir um texto colaborativo resumindo informações básicas
+
+#
+
+![center 100%](../../skills/images/discussion.svg)
+
+###
+
+Mais detalhes no roteiro da aula.
+
+---
 # Atividade 
 
-Escolha um dos seguintes projetos:
+Licenças de trabalhos artísticos/criativos:
 
-1. VSCode
-2. Marp
-3. Lua
-4. Blender
-5. PyCharm
+#
+#
 
----
-# Atividade
+![center 200%](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/CreativeCommons_logo_trademark.svg/280px-CreativeCommons_logo_trademark.svg.png)
 
-Respondam às seguintes perguntas:
+#
 
-1. Onde está o código fonte?
-2. Qual a licença?
-3. Existe documentação de desenvolvedor?
-	- Parece fácil de compilar/rodar?
-	- Parece fácil de modificar?
-4. Como o projeto é comandado?
-	- Existe um roadmap público?
-	- São aceitas contribuições externas? Por qual via?
-	- As decisões são tomadas por quem?
-5. Onde encontrar os membros do projeto? Onde pedir ajuda?
+* Todo trabalho criativo é "privado": criador controla distribuição
+* Licenças CC permitem a distribuição sob termos pouco restritivos
 
----
-# Atividade
+#
 
-Vamos criar um documento colaborativo com os resultados das pesquisas de vocês.
-
-1. Criem uma página na wiki do repositório da disciplina com o título "Informações básicas para começar a contribuir com um projeto"
-2. Escrevam suas descobertas nesta página
-3. Não se esqueçam de adicionar seus nomes como autores no fim do documento.
-
-**Importante**: pensem neste documento como um relatório de disciplina. Ele deve estar bem formatado e o layout deve ser consistente entre os projetos.
+<small>Vamos falar de licenças de software com cuidado mais para frente!</small>
 
 ---
 Desenvolvimento Aberto
