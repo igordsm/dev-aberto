@@ -25,10 +25,12 @@ Cada aluno deverá escolher um projeto acima e pesquisar os seguintes pontos.
 
 Após a pesquisa, cada um deverá integrar suas respostas na Wiki da disciplina dentro da página ["Informações básicas para começar a contribuir com um projeto"](https://github.com/igordsm/dev-aberto/wiki/Informa%C3%A7%C3%B5es-b%C3%A1sicas-para-come%C3%A7ar-a-contribuir-com-um-projeto). Vocês devem produzir um texto que seja consistente e de leitura fácil. Ou seja, todos projetos deverão ser apresentados usando a mesma estrutura e o texto deve ser mais que uma simples listagem e possuir algum tipo de introdução e conclusão. Não se esqueçam de assinar no fim do texto com os seus nomes. 
 
-Como conversado em aula, o texto deverá ser colocado sob a licença "Creative Commons By - Non Commercial - Share Alike". 
+Como proposto em aula, o texto deverá ser colocado sob a licença "Creative Commons By - Non Commercial - Share Alike". 
 
 ![CC-BY-NC-SA](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png){width=200px }
 
+\pagebreak
+
 Ao terminar o texto (e somente ao terminar o texto), vocês devem submeter um PR para obtenção da *skill* *Texto colaborativo*. 
 
-![Skill Texto Colaborativo](../../skills/images/discussion.svg){width=200px }
+![Skill Texto Colaborativo](discussion.png){width=200px }
