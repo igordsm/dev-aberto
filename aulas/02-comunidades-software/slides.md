@@ -209,6 +209,19 @@ Licenças de trabalhos artísticos/criativos:
 <small>Vamos falar de licenças de software com cuidado mais para frente!</small>
 
 ---
+# Para próxima aula
+
+Ler as seções
+
+1. *Abstract*, *Introduction*, *Reception Issues*, *Newcomers' Communication Behavior* e Figura 2 do artigo "Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects"
+
+##
+
+2. *Abstract*, *Introduction*, *Discussion* e *Implications* do artigo "Almost There: A Study on Quasi-Contributors in Open Source Software Projects"
+
+**Vamos discutir os conteúdos dos artigos e vai ter quiz**.
+
+---
 Desenvolvimento Aberto
 ===
 

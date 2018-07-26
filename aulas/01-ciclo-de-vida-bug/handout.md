@@ -45,7 +45,11 @@ modificações.
 
 ## Criando um avatar
 
-Para adicionar um avatar na disciplina basta editar o arquivo *players/player_list.json*. Siga o modelo do avatar já existente criado pelo professor. Imagens interessantes para seu avatar podem ser baixadas [neste site](http://untamed.wild-refuge.net/rmxpresources.php?characters). O personagem escolhido deve ser colocado na pasta *players/avatar_data*. 
+Para adicionar um avatar na disciplina basta editar o arquivo 
+*players/player_list.json*. Siga o modelo do avatar já existente criado pelo 
+professor. Imagens interessantes para seu avatar podem ser baixadas [neste 
+site](https://openclipart.org/collection/collection-detail/BartM/13543?page=1). 
+O personagem escolhido deve ser colocado na pasta *players/avatar_data*. 
 
 O campo `uuid` deve ser preenchido com um [Universally Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier), que pode ser gerado em Python usando o seguinte código.
 
