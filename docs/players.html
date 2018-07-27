@@ -49,21 +49,15 @@
     
         <div class="player-profile" id="player-igordsm">
                 <a href="#"><span class="close">X</span></a>
-            <canvas class="avatar" data-avatar-src="../players/avatar_data/igordsm.png"
-                width="100px" height="100px"></canvas>
-            <h2>igordsm</h2>
-            <div class="social">
-                <span>
-                    <a href="http://github.com/igordsm">
-                        <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="32px">
-                    </a>
-                </span>
-                <span>
-                    <a href="mailto:igorsm1@insper.edu.br">
-                        <img src="css/mail.png" height="32px">
-                    </a>
-                </span>
-            </div>
+            <h2>
+                igordsm
+                <a href="http://github.com/igordsm">
+                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="32px"></a>
+                <a href="mailto:igorsm1@insper.edu.br">
+                    <img src="css/mail.png" height="32px">
+                </a>
+            </h2>
+            <img class="avatar" src="https://github.com/igordsm/dev-aberto/raw/master/players/avatar_data/igordsm.png"width="100px" height="100px">
 
             <div class="skill-list">
                 <h3>Skills:</h3>
@@ -88,8 +82,8 @@
         <div class="pure-u-1 pure-u-md-1-2 player_box">
             <div class="l-box">
                 <h3 class="information-head">igordsm</h3>
-                <canvas class="avatar" data-avatar-src="../players/avatar_data/igordsm.png"
-                        width="100px" height="100px"></canvas>
+                <img class="avatar" src="https://github.com/igordsm/dev-aberto/raw/master/players/avatar_data/igordsm.png" width="100px" 
+height="100px">
                 <div class="player_info">
                     <span class="player_xp">1000 XP</span> <br>
                     <span class="player_level">Newbie</span><br>
@@ -113,21 +107,6 @@
 </div>
 
 <script type="text/javascript">
-    var canvases = document.querySelectorAll("canvas.avatar");
-    
-    for (var i = 0; i < canvases.length; i++) {
-        let canv = canvases[i];
-        let src = canv.dataset.avatarSrc;
-        let ctx = canv.getContext("2d");
-        let img = document.createElement("img");
-        img.src = src;
-        img.onload = function (ev) {
-            ctx.drawImage(img, 0, 0, img.width, img.height, 0, 0, 
-canv.width, canv.height);
-        };
-        
-    }
-
     function parse_hash(ev) {
         let h = window.location.hash.substr(1);
         show_profile("player-" + h);
