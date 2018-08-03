@@ -27,7 +27,7 @@
         "id": 2,
         "name": "Primeiro Bug",
         "requisite": "Enviar um pull request consertando um bug.",
-        "type": "Code",
+        "type": "Classroom",
         "xp_value": 10,
         "badge": "primeiro_bug.svg"
     },
@@ -58,7 +58,7 @@
         {
         "id": 6,
         "name": "Helpdesk",
-        "requisite": "Respondeu dúvida em StackOverflow, lista de emails, etc",
+        "requisite": "Resposta marcada como \"Aceita\" no StackOverflow e com mais de 2 upvotes.",
         "type": "Community",
         "xp_value": 3,
         "badge": "helpdesk.svg"

@@ -290,6 +290,16 @@ a:visited {
     text-align: center;
 }
 
+#level-descr-table {
+    max-width: 800px;
+}
+
+.level-descr-col {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner
