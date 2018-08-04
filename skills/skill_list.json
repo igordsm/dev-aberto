@@ -16,7 +16,7 @@
         "badge": "rodin.svg"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Documento colaborativo",
         "requisite": "Criou, junto com a sala, um documento colaborativo de qualidade.",
         "type": "Classroom",
@@ -24,7 +24,7 @@
         "badge": "discussion.svg"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Primeiro Bug",
         "requisite": "Enviar um pull request consertando um bug.",
         "type": "Classroom",
@@ -32,15 +32,31 @@
         "badge": "primeiro_bug.svg"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Seu desejo é uma ordem",
         "requisite": "Enviou PR para uma issue com a tag Wishlist.",
         "type": "Code",
         "xp_value": 10,
         "badge": "lamp.svg"
     },
-        {
-        "id": 4,
+    {
+        "id": 5,
+        "name": "PR enviado",
+        "requisite": "Enviou PR para uma issue.",
+        "type": "Code",
+        "xp_value": 5,
+        "badge": "pr_sent.svg"
+    },
+    {
+        "id": 6,
+        "name": "PR aceito",
+        "requisite": "Um PR enviado foi aceito.",
+        "type": "Code",
+        "xp_value": 10,
+        "badge": "pr_accepted.svg"
+    },
+    {
+        "id": 7,
         "name": "Boas maneiras",
         "requisite": "Se apresentou nas lista de discussões de um projeto.",
         "type": "Community",
@@ -48,7 +64,7 @@
         "badge": "handshake.svg"
     },
         {
-        "id": 5,
+        "id": 8,
         "name": "Tradutor",
         "requisite": "Contribuiui com ao menos 10 strings de tradução para um projeto. ",
         "type": "Documentation",
@@ -56,7 +72,7 @@
         "badge": "translate.svg"
     },
         {
-        "id": 6,
+        "id": 9,
         "name": "Helpdesk",
         "requisite": "Resposta marcada como \"Aceita\" no StackOverflow e com mais de 2 upvotes.",
         "type": "Community",
@@ -64,7 +80,7 @@
         "badge": "helpdesk.svg"
     },
         {
-        "id": 7,
+        "id": 10,
         "name": "Poliglota",
         "requisite": "Fez tradução/revisão para lingua diferente de Português/Inglês.",
         "type": "Documentation",
@@ -72,7 +88,7 @@
         "badge": "poliglot.svg"
     },
         {
-        "id": 8,
+        "id": 11,
         "name": "Iniciante",
         "requisite": "Enviou PR para issue marcada como <i>good first bug</i>",
         "type": "Code",
@@ -80,23 +96,31 @@
         "badge": "beginner.svg"
     },
         {
-        "id": 9,
+        "id": 12,
         "name": "Salva vidas",
         "requisite": "Enviou PR para issue marcada como <i>help wanted</i>",
         "type": "Code",
         "xp_value": 5,
         "badge": "sos.svg"
-    },
+    },superheroine-normal2
         {
-        "id": 10,
+        "id": 13,
         "name": "Inovador",
         "requisite": "Enviou PR para issue marcada como <i>feature request</i>",
         "type": "Code",
         "xp_value": 5,
         "badge": "light-bulb.svg"
     },
-        {
-        "id": 11,
+    {
+        "id": 14,
+        "name": "Especialista",
+        "requisite": "Mais de 5 PRs enviados para o mesmo projeto.",
+        "type": "Code",
+        "xp_value": 20,
+        "badge": "specialist.svg"
+    },
+    {
+        "id": 15,
         "name": "Necromante",
         "requisite": "Enviou PR para issue reportada há mais de 18 meses. ",
         "type": "Code",
@@ -104,7 +128,7 @@
         "badge": "zombie.svg"
     },
         {
-        "id": 12,
+        "id": 16,
         "name": "Programação pareada",
         "requisite": "Enviou PR em conjunto com outro aluno.",
         "type": "Code",
