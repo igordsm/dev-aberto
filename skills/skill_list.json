@@ -45,7 +45,7 @@
         "requisite": "Enviou PR para uma issue.",
         "type": "Code",
         "xp_value": 5,
-        "badge": "pr_sent.svg"
+        "badge": "pr-sent.svg"
     },
     {
         "id": 6,
@@ -53,7 +53,7 @@
         "requisite": "Um PR enviado foi aceito.",
         "type": "Code",
         "xp_value": 10,
-        "badge": "pr_accepted.svg"
+        "badge": "pr-accepted.svg"
     },
     {
         "id": 7,
@@ -102,7 +102,7 @@
         "type": "Code",
         "xp_value": 5,
         "badge": "sos.svg"
-    },superheroine-normal2
+    },
         {
         "id": 13,
         "name": "Inovador",
@@ -134,6 +134,22 @@
         "type": "Code",
         "xp_value": 5,
         "badge": "pair.svg"
+    },
+    {
+        "id": 17,
+        "name": "Capítulo OSS",
+        "requisite": "Traduziu um capítulo do livro Producing Open Source Software",
+        "type": "Documentation",
+        "xp_value": 20,
+        "badge": "book-write.svg"
+    },
+    {
+        "id": 18,
+        "name": "Revisão OSS",
+        "requisite": "Revisou um capítulo da tradução do livro Producing Open Source Software",
+        "type": "Documentation",
+        "xp_value": 10,
+        "badge": "book-revision.svg"
     }
 
 ]
