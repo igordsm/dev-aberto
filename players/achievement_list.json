@@ -10,5 +10,11 @@
         "skill_id": 1,
         "proof": "http://igordsm.github.io/dev-aberto/players.html#marcelogdeandrade",
         "date": "2018-08-06"
+    },
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 1,
+        "proof": "http://igordsm.github.io/dev-aberto/players.html#gustavoefeiche",
+        "date": "2018-08-06"
     }
 ]
