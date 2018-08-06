@@ -4,5 +4,12 @@
         "skill_id": 0,
         "proof": "Adicionado por Igor",
         "date": "2018-08-07"
+    },
+
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 1,
+        "proof": "http://igordsm.github.io/dev-aberto/players.html#formulos",
+        "date": "2018-08-06"
     }
 ]
