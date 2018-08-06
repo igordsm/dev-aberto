@@ -28,7 +28,7 @@ if __name__ == "__main__":
             achievement_per_player[ach["player_uuid"]].append(ach)
 
     for plr in players:
-        plr["raw_img"] = '../players/avatar_data/' + plr["avatar_image"]
+        plr["raw_img"] = 'https://github.com/igordsm/dev-aberto/raw/master/players/avatar_data/' + plr["avatar_image"]
         plr["xp"] = 0
         plr["level_name"] = "Newbie"
 
