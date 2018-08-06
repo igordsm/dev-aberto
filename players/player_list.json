@@ -5,6 +5,14 @@
         "uuid": "37c83c20-814c-11e8-bc06-40e2302671c3",
         "avatar_image": "igordsm.png"
     },
+
+    {
+        "github_name": "vitoriahmc",
+        "email_insper": "vitoriahmc@al.insper.edu.br",
+        "uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "avatar_image": "vitoriahmc.svg"
+	},
+
     {
         "github_name": "marcelogdeandrade",
         "email_insper": "marceloga1@insper.edu.br",
