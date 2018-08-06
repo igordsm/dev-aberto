@@ -4,5 +4,11 @@
         "skill_id": 0,
         "proof": "Adicionado por Igor",
         "date": "2018-08-07"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 1,
+        "proof": "https://igordsm.github.io/dev-aberto/players.html#lucasca2",
+        "date": "2018-08-06"
     }
 ]
