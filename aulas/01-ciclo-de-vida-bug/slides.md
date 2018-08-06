@@ -23,6 +23,30 @@ Desenvolvimento Aberto
 
 * Segunda 18:00 - 19:30
 
+### Avaliação
+- Curso baseado em projetos
+
+----
+
+# Livro texto
+
+
+![center 250%](https://producingoss.com/images/producingoss-cover-small.gif)
+
+Disponível onnline em [https://producingoss.com](https://producingoss.com/)
+
+----------
+
+# Expectativas
+
+**Atividade**: 15 minutos
+
+#
+
+#
+
+### Quais são suas expectativas em relação ao curso?
+
 ----------
 
 # Motivação
@@ -59,7 +83,11 @@ Ao final da disciplina o estudante será capaz de:
 
 - Baixar, entender e **modificar** o código de um projeto
 - Conseguir que suas modificações sejam **incorporadas**
-- Entender como licenças impactam a **distribuição** de software.
+- Compreender aspectos ligados a **distribuição** de software.
+	- Licenças
+	- Monitoramento, Bug Tracker, Versionamento, etc
+	- Documentação / Internacionalização
+	- Comunidades de usuários
 
 ----
 
@@ -86,18 +114,6 @@ Site: [https://igordsm.github.io/dev-aberto/](https://igordsm.github.io/dev-aber
 ![center](qr-pagina.png)
 
 Blackboard será usado para avisos somente. Todo conteúdo estará disponível no github.
-
-----------
-
-# Expectativas
-
-**Atividade**: 15 minutos
-
-#
-
-#
-
-### Quais são suas expectativas em relação ao curso?
 
 ---
 
@@ -165,6 +181,7 @@ Disciplina baseada em projetos
 	- 4 sprints de 2 semanas
 	- **Autonomia** para definir quais tarefas serão feitas
 	- Escolha de projetos será semi-livre
+- Reuniões de acompanhamento nas semanas de avaliação
 
 ----------
 
@@ -219,6 +236,13 @@ Uma série de serviços e processos acompanha um software.
 ![center 45%](thinker.png)
 
 ---
+
+# Tarefa complementar
+
+Se você já acabou o roteiro da aula, leia o Capítulo 3 **Technical Infrastructure** do livro *"Producing Open Source Software*"
+
+---
+
 Desenvolvimento Aberto
 ===
 
