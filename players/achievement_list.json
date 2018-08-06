@@ -4,5 +4,12 @@
         "skill_id": 0,
         "proof": "Adicionado por Igor",
         "date": "2018-08-07"
+    },
+
+   	{
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 1,
+        "proof": "http://igordsm.github.io/dev-aberto/players.html#vitoriahmc",
+        "date": "2018-08-06"
     }
 ]
