@@ -5,10 +5,39 @@
         "uuid": "37c83c20-814c-11e8-bc06-40e2302671c3",
         "avatar_image": "igordsm.png"
     },
+    
     {
         "github_name": "chends888",
         "email_insper": "lucasca2@al.insper.edu.br",
         "uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "avatar_image": "lucasca2.svg"
+    },
+
+    {
+        "github_name": "formulos",
+        "email_insper": "paulotp@al.insper.edu.br",
+        "uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "avatar_image": "paulotp.svg"
+    },
+    
+    {
+        "github_name": "vitoriahmc",
+        "email_insper": "vitoriahmc@al.insper.edu.br",
+        "uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "avatar_image": "vitoriahmc.svg"
+	},
+
+    {
+        "github_name": "marcelogdeandrade",
+        "email_insper": "marceloga1@insper.edu.br",
+        "uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "avatar_image": "marceloga1.svg"
+    },
+
+    {
+        "github_name": "gustavoefeiche",
+        "email_insper": "gustavoe1@insper.edu.br",
+        "uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "avatar_image": "gustavoefeiche.svg"
     }
 ]
