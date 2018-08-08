@@ -141,6 +141,14 @@ Distribuição linux comandada por uma empresa "minúscula" focada em experiênc
 
 ---
 
+![center](donations.png)
+
+---
+
+![center 130%](donations2.png)
+
+---
+
 # Outras fontes
 
 ![center 95%](fontes-fundos.png)
@@ -157,7 +165,7 @@ Diversas outras maneiras de conseguir suporte e financiamento
 #
 #
 
-Nem sempre o que é financiado termina em um formato "aproveitável" por terceiros (ex: Android/Linux)
+Nem sempre o que é financiado termina em um formato "aproveitável" por terceiros (ex: Android/Linux, TiVO)
 
 ---
 # Razões para contribuir (indivíduo)
@@ -213,7 +221,7 @@ Licenças de trabalhos artísticos/criativos:
 
 Ler as seções
 
-1. *Abstract*, *Introduction*, *Reception Issues*, *Newcomers' Communication Behavior* e Figura 2 do artigo "Social Barriers Faced by Newcomers Placing Their First Contribution in Open Source Software Projects"
+1. *Abstract*, *Introduction*, *Reception Issues*, *First-timers vs. “experienced” newcomers* e Figuras 3 e 4 do artigo "Overcoming Social Barriers When Contributing to Open Source Software Projects"
 
 ##
 
