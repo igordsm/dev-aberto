@@ -5,7 +5,14 @@
         "uuid": "37c83c20-814c-11e8-bc06-40e2302671c3",
         "avatar_image": "igordsm.png"
     },
-    
+
+    {
+        "github_name": "joaoppc",
+        "email_insper": "joaoppc@al.insper.edu.br",
+        "uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "avatar_image": "joaoppc.svg"
+    },
+  
     {
         "github_name": "chends888",
         "email_insper": "lucasca2@al.insper.edu.br",
