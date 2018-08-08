@@ -9,6 +9,7 @@ A atividade desta aula envolve a criação de um texto colaborativo listando com
 3. Lua
 4. Blender
 5. PyCharm
+6. node.js
 
 Cada aluno deverá escolher um projeto acima e pesquisar os seguintes pontos.
 
@@ -22,6 +23,9 @@ Cada aluno deverá escolher um projeto acima e pesquisar os seguintes pontos.
 	- São aceitas contribuições externas? Por qual via?
 	- As decisões são tomadas por quem?
 5. Onde encontrar os membros do projeto? Onde pedir ajuda?
+6. O projeto arrecada fundos?
+    - Como eles são usados? 
+    - Existem empresas patrocinando desenvolvedores?
 
 Após a pesquisa, cada um deverá integrar suas respostas na Wiki da disciplina dentro da página ["Informações básicas para começar a contribuir com um projeto"](https://github.com/igordsm/dev-aberto/wiki/Informa%C3%A7%C3%B5es-b%C3%A1sicas-para-come%C3%A7ar-a-contribuir-com-um-projeto). Vocês devem produzir um texto que seja consistente e de leitura fácil. Ou seja, todos projetos deverão ser apresentados usando a mesma estrutura e o texto deve ser mais que uma simples listagem e possuir algum tipo de introdução e conclusão. Não se esqueçam de assinar no fim do texto com os seus nomes. 
 
