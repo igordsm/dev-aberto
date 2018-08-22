@@ -52,10 +52,26 @@
             <h2>
                 {{ plr.github_name }}
                 <a href="http://github.com/{{ plr.github_name }}">
-                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="32px"></a>
+                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="32px">
+                </a>
                 <a href="mailto:{{ plr.email_insper}}">
                     <img src="css/mail.png" height="32px">
                 </a>
+                {% if plr.facebook_name != "" %}
+                <a href="https://facebook.com/{{ plr.facebook_name }}">
+                    <img src="css/facebook-512.png" height="32px">
+                </a>
+                {% endif %}
+                {% if plr.linkedin_name != "" %}
+                <a href="https://www.linkedin.com/in/{{ plr.linkedin_name }}">
+                    <img src="css/linkedin.png" height="32px">
+                </a>
+                {% endif %}
+                {% if plr.twitter_name != "" %}
+                <a href="https://twitter.com/{{ plr.twitter_name }}">
+                    <img src="css/twitter_circle-512.png" height="32px">
+                </a>
+                {% endif %}
             </h2>
             <img class="avatar" src="{{ plr.raw_img }}"width="100px" height="100px">
 
