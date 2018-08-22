@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
         plr["skills"] = []
         for ach in achievement_per_player[plr["uuid"]]:
-            plr["xp"] += skills[ach["skill_id"]]["xp_value"]
+            plr["xp"] += get_skill_by_id(skills, ach["skill_id"])["xp_value"]
             plr["skills"].append(get_skill_by_id(skills, ach["skill_id"]).copy())
         
         # compute player level
