@@ -1,6 +1,12 @@
 from jinja2 import Template
 import json
 
+def get_skill_by_id(skills, skid):
+    for sk in skills:
+        if sk["id"] == skid:
+            return sk
+    return None
+
 if __name__ == "__main__":
     with open('players/player_list_template.html') as f:
         player_list_page = Template(f.read())
@@ -36,7 +42,7 @@ if __name__ == "__main__":
         plr["skills"] = []
         for ach in achievement_per_player[plr["uuid"]]:
             plr["xp"] += skills[ach["skill_id"]]["xp_value"]
-            plr["skills"].append(skills[ach["skill_id"]].copy())
+            plr["skills"].append(get_skill_by_id(skills, ach["skill_id"]).copy())
         
         # compute player level
 
