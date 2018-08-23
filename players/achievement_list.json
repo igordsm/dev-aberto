@@ -54,7 +54,12 @@
         "proof": "https://github.com/spyder-ide/spyder/issues/7518",
         "date": "2018-08-15"
     },
-
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 3,
+        "proof": "https://github.com/spyder-ide/spyder/pull/7698",
+        "date": "2018-08-22"
+    },
     {
         "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "skill_id": 19,
