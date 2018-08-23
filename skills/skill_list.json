@@ -32,6 +32,14 @@
         "badge": "primeiro_bug.svg"
     },
     {
+        "id":19,
+        "name": "Eu escolho você!",
+        "requisite": "Escolheu projeto para trabalhar em sala de aula e enviou mensagem no bug tracker mostrando interesse.",
+        "type": "Classroom",
+        "xp_value": 2,
+        "badge": "i-choose-you.svg"
+    },
+    {
         "id": 4,
         "name": "Seu desejo é uma ordem",
         "requisite": "Enviou PR para uma issue com a tag Wishlist.",
