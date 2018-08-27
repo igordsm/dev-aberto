@@ -48,7 +48,6 @@
         "proof": "http://igordsm.github.io/dev-aberto/players.html#joaoppc",
         "date": "2018-08-08"
     },
-
     {
         "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "skill_id": 2,
@@ -96,16 +95,12 @@
         "proof": "https://github.com/spyder-ide/spyder/issues/7518",
         "date": "2018-08-15"
     },
-<<<<<<< HEAD
-
-=======
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 3,
         "proof": "https://github.com/spyder-ide/spyder/pull/7698",
         "date": "2018-08-22"
     },
->>>>>>> f4a92eaffc1559c7d7428570e714762e8e995a4f
     {
         "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "skill_id": 19,
