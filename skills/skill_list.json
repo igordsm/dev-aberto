@@ -40,6 +40,14 @@
         "badge": "i-choose-you.svg"
     },
     {
+        "id": 20,
+        "name": "Caminho encontrado!",
+        "requisite": "Descobriu como um projeto sem documentação funciona e escreveu um guia de uso.",
+        "type": "Classroom",
+        "xp_value": 5,
+        "badge": "docs-created.svg"
+    },
+    {
         "id": 4,
         "name": "Seu desejo é uma ordem",
         "requisite": "Enviou PR para uma issue com a tag Wishlist.",
