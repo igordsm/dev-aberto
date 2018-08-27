@@ -7,7 +7,20 @@
     },
 
     {
+        "github_name": "joaoppc",
+        "email_insper": "joaoppc@al.insper.edu.br",
+        "uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "avatar_image": "joaoppc.svg"
+    },
+  
+    {
+        "github_name": "chends888",
+        "email_insper": "lucasca2@al.insper.edu.br",
+        "uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "avatar_image": "lucasca2.svg"
+    },
 
+    {
         "github_name": "formulos",
         "email_insper": "paulotp@al.insper.edu.br",
         "uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
