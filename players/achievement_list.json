@@ -106,5 +106,11 @@
         "skill_id": 19,
         "proof": "https://github.com/spyder-ide/spyder/issues/2641",
         "date": "2018-08-22"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 20,
+        "proof": "http://marceloandrade.me/SoftDes-Desafios/",
+        "date": "2018-08-27"
     }
 ]
