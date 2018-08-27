@@ -112,5 +112,11 @@
         "skill_id": 3,
         "proof": "https://github.com/spyder-ide/spyder/pull/7747",
         "date": "2018-08-22"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 19,
+        "proof": "https://github.com/elementary/switchboard-plug-about/issues/63",
+        "date": "2018-08-27"
     }
 ]
