@@ -68,6 +68,8 @@ print(_("Hello!"))
 
 Após marcar todas strings para tradução com `_` precisamos então extrair estas strings do código fonte em um arquivo modelo com extensão `.POT`. Este arquivo é usado como modelo para criar as traduções. 
 
-
+pybabel extract . -o messages.pot -d cli
+pybabel init -l pt_BR -i messages.pot -d locale
+pybabel compile -d . -l pt_BR -o locale
 
 -----
