@@ -42,6 +42,13 @@
     },
 
     {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 20,
+        "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios/wiki, https://gustavoefeiche.github.io/SoftDes-Desafios/",
+        "date": "2018-08-29"
+    },
+
+    {
 
         "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "skill_id": 1,
