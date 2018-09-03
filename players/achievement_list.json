@@ -132,5 +132,11 @@
         "skill_id": 19,
         "proof": "https://github.com/elementary/switchboard-plug-about/issues/63",
         "date": "2018-08-27"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 21,
+        "proof": "https://github.com/marcelogdeandrade/SoftDes-Desafios/tree/translation",
+        "date": "2018-03-03"
     }
 ]
