@@ -24,6 +24,8 @@
         <!--<![endif]-->
 
         <link rel="stylesheet" href="css/layouts/email.css">
+
+        <link rel="stylesheet" href="css/layouts/skills.css"
 </head>
 <body>
 
@@ -46,21 +48,31 @@
 </div>
 
 <div class="l-content information">
-    <h1> Lista de skills: </h1>
+    <h1>Lista de Skills</h1>
 
-    <table>
-    {% for sk in skills %}
-        <tr>
-            <td>
-                <img src="{{ sk.raw_img }}" class="badge">
-            </td>
-            <td> {{ sk.name }} </td>
-            <td> {{ sk.requisite }}</td>
-        </tr>
-    {% endfor %}
+    <table id="skills" class="pure-table pure-table-horizontal">
+        <tbody>
+            {% for sk in skills %}
+            <tr>
+                <td class="">
+                    <img class="skill-img" src="{{ sk.raw_img }}"/>
+                </td>
+                <td>
+                    {{ sk.name }}
+                </td>
+                <td>
+                    {{ sk.requisite }}
+                </td>
+                <td>
+                    <span class="{{ sk.type }} skill-type">{{ sk.type }}</span>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
     </table>
 
-    <br>
+    <br/>
+
 </div>
 
 <div class="footer l-box">
