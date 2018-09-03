@@ -6,16 +6,16 @@ Na parte expositiva da aula tivemos uma introdução aos problemas de Internacio
 
 Em ambos exemplos vamos trabalhar com o módulo *Babel*, que é feito para facilitar a tradução e localização de aplicações feitas em Python. Outras linguagens de programação possuem bibliotecas similares que seguem a mesma sequência de comandos e usam os mesmos tipos de arquivos. 
 
-Sistemas POSIX suportam a determinação de do *locale* utilizado por meio da variável de ambiente *LANG*, que pode ser modificada para cada execução de um programa. O formato padrão usado é `<lingua>_<pais>.<codificacao>`. Para português do Brasil usando codificação UTF8 usamos o locale `pt_BR.utf8`. Rodando o seguinte comando as mensagens de ajuda do `ls` devem aparecer em inglês.
+Sistemas POSIX suportam a determinação de do *locale* utilizado por meio da variável de ambiente *LANGUAGE*, que pode ser modificada para cada execução de um programa. O formato padrão usado é `<lingua>_<pais>.<codificacao>`. Para português do Brasil usando codificação UTF8 usamos o locale `pt_BR.utf8`. Rodando o seguinte comando as mensagens de ajuda do `ls` devem aparecer em inglês.
 
-> `LANG=en_US.utf8 ls --help`
+> `LANGUAGE=en_US.utf8 ls --help`
 
 Já executando o comando abaixo elas devem aparecer em português.
 
-> `LANG=pt_BR.utf8 ls --help`
+> `LANGUAGE=pt_BR.utf8 ls --help`
  
  
-De maneira mais geral, existe uma série de variáveis *LC_\** que controlam qual locale é usado para determinado tipo de dados. Veremos a seguir como usar `LC_TIME` e `LC_NUMERIC` para controlar como datas e números são exibidos e `LANG` para definir a lingua de exibição de um programa. 
+De maneira mais geral, existe uma série de variáveis *LC_\** que controlam qual locale é usado para determinado tipo de dados. Veremos a seguir como usar `LC_TIME` e `LC_NUMERIC` para controlar como datas e números são exibidos e `LANGUAGE` para definir a lingua de exibição de um programa. 
 
 # Parte 1 - linha de comando 
 
@@ -52,7 +52,7 @@ A formatação de datas é governada para variável `LC_NUMERIC`. O módulo `bab
 
 ## Traduzindo mensagens
 
-A parte final consiste em criar traduções das duas strings presentes no texto. A linguagem usada é definida pela variável `LANG`, que pode ser definida separadamente para cada processo. Um dos pontos mais importantes é marcar quais strings deverão ser traduzidas para que uma equipe de tradutores não precise mexer no código. O módulo `gettext` do Python já provê suporte a esta funcionalidade, o *Babel* apenas fornece um conjunto de ferramentas que facilita seu uso. 
+A parte final consiste em criar traduções das duas strings presentes no texto. A linguagem usada é definida pela variável `LANGUAGE`, que pode ser definida separadamente para cada processo. Um dos pontos mais importantes é marcar quais strings deverão ser traduzidas para que uma equipe de tradutores não precise mexer no código. O módulo `gettext` do Python já provê suporte a esta funcionalidade, o *Babel* apenas fornece um conjunto de ferramentas que facilita seu uso. 
 
 A implantação do framework de tradução é feita em quatro passos:
 
@@ -93,11 +93,11 @@ msgstr ""
 
 Com as strings traduzidas vamos finalmente compilar nossos resultados. Isto é feito para que não seja possível mexer nos arquivos de tradução em uma versão *Release* do programa. 
 
-> `$ pybabel compile -d . -l pt_BR -o locale`
+> $ pybabel compile -D cli -l pt_BR -d locale
 
 ## Tudo pronto!
 
-Podemos definir a variável `LANG` para modificar a lingua de um programa (como visto anteriormente com `ls`). Execute seu programa diretamente e depois setando `LANG=pt_BR.utf8`. Os resultados foram os esperados?
+Podemos definir a variável `LANGUAGE` para modificar a lingua de um programa (como visto anteriormente com `ls`). Execute seu programa diretamente e depois setando `LANGUAGE=pt_BR.utf8`. Os resultados foram os esperados?
 
 # Parte 2 - Tradução de uma aplicação Web em Flask
 
