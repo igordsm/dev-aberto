@@ -93,7 +93,7 @@ msgstr ""
 
 Com as strings traduzidas vamos finalmente compilar nossos resultados. Isto é feito para que não seja possível mexer nos arquivos de tradução em uma versão *Release* do programa. 
 
-> `$ pybabel compile -D cli -l pt_BR -d locale
+> $ pybabel compile -D cli -l pt_BR -d locale
 
 ## Tudo pronto!
 
