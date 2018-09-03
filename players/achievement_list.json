@@ -118,5 +118,11 @@
         "skill_id": 19,
         "proof": "https://github.com/elementary/switchboard-plug-about/issues/63",
         "date": "2018-08-27"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 20,
+        "proof": "https://vitoriahmc.github.io/softdes-desafios/",
+        "date": "2018-09-03"
     }
 ]
