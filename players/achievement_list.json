@@ -124,5 +124,11 @@
         "skill_id": 20,
         "proof": "https://vitoriahmc.github.io/softdes-desafios/",
         "date": "2018-09-03"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 21,
+        "proof": "https://github.com/vitoriahmc/softdes-desafios",
+        "date": "2018-09-03"
     }
 ]
