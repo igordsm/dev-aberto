@@ -43,6 +43,13 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 21,
+        "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios",
+        "date": "2018-09-03"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 22,
         "proof": "https://gustavoefeiche.github.io/SoftDes-Desafios/api/html/softdes.html, https://github.com/gustavoefeiche/SoftDes-Desafios/blob/master/softdes.py",
         "date": "2018-09-03"
