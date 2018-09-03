@@ -11,6 +11,10 @@ from datetime import datetime
 import sqlite3
 import json
 import hashlib
+import gettext
+
+gettext.install('softdes', localedir='locale')
+
 
 DBNAME = './quiz.db'
 
@@ -36,14 +40,14 @@ def lambda_handler(event, context):
         test = []
         for index, arg in enumerate(args):
             if not 'desafio{0}'.format(ndes) in locals():
-                return "Nome da função inválido. Usar 'def desafio{0}(...)'".format(ndes)
+                return (_("Nome da função inválido. Usar 'def desafio{0}(...)'")).format(ndes)
             
-            if not_equals(eval('desafio{0}(*arg)'.format(ndes)), resp[index]):
+            if not_equals(eval((_('desafio{0}(*arg)')).format(ndes)), resp[index]):
                 test.append(diag[index])
 
         return " ".join(test)
     except:
-        return "Função inválida."
+        return (_("Função inválida."))
 
 def converteData(orig):
     return orig[8:10]+'/'+orig[5:7]+'/'+orig[0:4]+' '+orig[11:13]+':'+orig[14:16]+':'+orig[17:]
@@ -124,14 +128,14 @@ def main():
         id = request.args.get('ID')
         quiz = getQuiz(id, auth.username())
         if len(quiz) == 0:
-            msg = "Boa tentativa, mas não vai dar certo!"
+            msg = (_("Boa tentativa, mas não vai dar certo!"))
             p = 2
             return render_template('index.html', username=auth.username(), challenges=challenges, p=p, msg=msg)
 
         
         quiz = quiz[0]
         if sent > quiz[2]:
-            msg = "Sorry... Prazo expirado!"
+            msg = (_("Sorry... Prazo expirado!"))
         
         f = request.files['code']
         filename = './upload/{0}-{1}.py'.format(auth.username(), sent)
@@ -163,14 +167,14 @@ def main():
             id = 1
 
     if len(challenges) == 0:
-        msg = "Ainda não há desafios! Volte mais tarde."
+        msg = (_("Ainda não há desafios! Volte mais tarde."))
         p = 2
         return render_template('index.html', username=auth.username(), challenges=challenges, p=p, msg=msg)
     else:
         quiz = getQuiz(id, auth.username())
 
         if len(quiz) == 0:
-            msg = "Oops... Desafio invalido!"
+            msg = (_("Oops... Desafio invalido!"))
             p = 2
             return render_template('index.html', username=auth.username(), challenges=challenges, p=p, msg=msg)
 
@@ -189,14 +193,14 @@ def change():
         p = 1
         msg = ''
         if nova != repet:
-            msg = 'As novas senhas nao batem'
+            msg = (_('As novas senhas nao batem'))
             p = 3
         elif getInfo(auth.username()) != hashlib.md5(velha.encode()).hexdigest():
-            msg = 'A senha antiga nao confere'
+            msg = (_('A senha antiga nao confere'))
             p = 3
         else:
             setInfo(hashlib.md5(nova.encode()).hexdigest(), auth.username())
-            msg = 'Senha alterada com sucesso'
+            msg = (_('Senha alterada com sucesso'))
             p = 3
     else:
         msg = ''
@@ -207,7 +211,7 @@ def change():
 
 @app.route('/logout')
 def logout():
-    return render_template('index.html',p=2, msg="Logout com sucesso"), 401
+    return render_template('index.html',p=2, msg=(_("Logout com sucesso"))), 401
 
 @auth.get_password
 def get_password(username):

@@ -1,0 +1,64 @@
+# Portuguese (Brazil) translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-09-03 14:17-0300\n"
+"PO-Revision-Date: 2018-09-03 14:23-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"Language-Team: pt_BR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: softdes.py:43
+msgid "Nome da função inválido. Usar 'def desafio{0}(...)'"
+msgstr ""
+
+#: softdes.py:45
+msgid "desafio{0}(*arg)"
+msgstr ""
+
+#: softdes.py:50
+msgid "Função inválida."
+msgstr ""
+
+#: softdes.py:131
+msgid "Boa tentativa, mas não vai dar certo!"
+msgstr ""
+
+#: softdes.py:138
+msgid "Sorry... Prazo expirado!"
+msgstr ""
+
+#: softdes.py:170
+msgid "Ainda não há desafios! Volte mais tarde."
+msgstr ""
+
+#: softdes.py:177
+msgid "Oops... Desafio invalido!"
+msgstr ""
+
+#: softdes.py:196
+msgid "As novas senhas nao batem"
+msgstr ""
+
+#: softdes.py:199
+msgid "A senha antiga nao confere"
+msgstr ""
+
+#: softdes.py:203
+msgid "Senha alterada com sucesso"
+msgstr ""
+
+#: softdes.py:214
+msgid "Logout com sucesso"
+msgstr ""
+
