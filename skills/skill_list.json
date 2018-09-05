@@ -48,6 +48,30 @@
         "badge": "docs-created.svg"
     },
     {
+        "id": 21,
+        "name": "Minha primeira tradução",
+        "requisite": "Adicionou suporte a tradução em um sistema Web simples escrito em Flask.",
+        "type": "Classroom",
+        "xp_value": 5,
+        "badge": "web-translation.svg"
+    },
+    {
+        "id": 22,
+        "name": "Shiny code",
+        "requisite": "Documentou API do sistema e passou <i>linter</i>.",
+        "type": "Classroom",
+        "xp_value": 5,
+        "badge": "shiny-code.svg"
+    },
+    {
+        "id": 23,
+        "name": "Testado e aprovado",
+        "requisite": "Criou conjunto de testes para o sistema de DesSoft.",
+        "type": "Code",
+        "xp_value": 3,
+        "badge": "tested-approved.svg"
+    },
+    {
         "id": 4,
         "name": "Seu desejo é uma ordem",
         "requisite": "Enviou PR para uma issue com a tag Wishlist.",
