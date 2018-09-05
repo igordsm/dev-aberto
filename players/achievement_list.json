@@ -172,5 +172,11 @@
         "skill_id": 21,
         "proof": "https://github.com/marcelogdeandrade/SoftDes-Desafios/tree/translation",
         "date": "2018-09-03"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 22,
+        "proof": "https://github.com/marcelogdeandrade/SoftDes-Desafios/tree/api_doc",
+        "date": "2018-09-05"
     }
 ]
