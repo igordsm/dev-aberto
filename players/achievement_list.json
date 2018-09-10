@@ -166,11 +166,16 @@
         "proof": "https://github.com/vitoriahmc/softdes-desafios",
         "date": "2018-09-03"
     },
-  
-    {
+  	{
         "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
         "skill_id": 21,
         "proof": "https://github.com/marcelogdeandrade/SoftDes-Desafios/tree/translation",
         "date": "2018-09-03"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 22,
+        "proof": "https://github.com/vitoriahmc/SoftDes-Desafios/tree/master/sphinx",
+        "date": "2018-09-05"
     }
 ]
