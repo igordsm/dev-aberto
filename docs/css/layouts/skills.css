@@ -1,0 +1,25 @@
+.Classroom {
+	background-color: #68c3a3;
+}
+
+.Code {
+	background-color: #81cfe0;
+}
+
+.Community {
+	background-color: #67809f;
+}
+
+.Documentation {
+	background-color: #4ecdc4;
+}
+
+.skill-img {
+	max-height: 64px;
+}
+
+.skill-type {
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 5px 10px;
+}
