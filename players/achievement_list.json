@@ -256,6 +256,12 @@
         "skill_id": 22,
         "proof": "https://github.com/Formulos/SoftDes-Desafios/tree/master/sphinx",
         "date": "2018-08-29"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 5,
+        "proof": "https://github.com/pandas-dev/pandas/pull/22737",
+        "date": "2018-09-17"
     } 
- 
+
 ]
