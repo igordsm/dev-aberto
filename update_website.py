@@ -40,9 +40,15 @@ if __name__ == "__main__":
         plr["level_name"] = "Newbie"
 
         plr["skills"] = []
+        print(plr["github_name"])
         for ach in achievement_per_player[plr["uuid"]]:
-            plr["xp"] += get_skill_by_id(skills, ach["skill_id"])["xp_value"]
-            plr["skills"].append(get_skill_by_id(skills, ach["skill_id"]).copy())
+            skill = get_skill_by_id(skills, ach["skill_id"])
+            print(skill["id"])
+            plr["xp"] += skill["xp_value"]
+            plr["skills"].append(skill.copy())
+        
+        plr["skills"].sort(key=lambda t: t["id"])
+        print(plr["skills"])
         
         # compute player level
 

@@ -250,6 +250,9 @@ a:visited {
 .badge {
     max-width: 80px;
     max-height: 64px;
+    
+    width: 100rem;
+    height: 100rem;
 }
 
 .badge.miss {
