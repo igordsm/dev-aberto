@@ -195,5 +195,44 @@
         "skill_id": 15,
         "proof": "https://github.com/spyder-ide/spyder/issues/2641",
         "date": "2018-09-12"
-    }
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 19,
+        "proof": "https://github.com/spyder-ide/spyder/issues/3418",
+        "date": "2018-08-29"
+    },
+
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 15,
+        "proof": "https://github.com/spyder-ide/spyder/issues/3418",
+        "date": "2018-08-29"
+    },
+
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 3,
+        "proof": "https://github.com/spyder-ide/spyder/pull/7746",
+        "date": "2018-08-29"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 20,
+        "proof": "https://formulos.github.io/SoftDes-Desafios/",
+        "date": "2018-08-29"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 21,
+        "proof": "https://github.com/Formulos/SoftDes-Desafios",
+        "date": "2018-08-29"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 22,
+        "proof": "https://github.com/Formulos/SoftDes-Desafios/tree/master/sphinx",
+        "date": "2018-08-29"
+    } 
+
 ]
