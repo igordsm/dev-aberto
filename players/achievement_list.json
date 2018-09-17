@@ -1,5 +1,4 @@
-[
-    {
+[{
         "player_uuid": "37c83c20-814c-11e8-bc06-40e2302671c3",
         "skill_id": 0,
         "proof": "Adicionado por Igor",
@@ -54,15 +53,15 @@
         "proof": "https://gustavoefeiche.github.io/SoftDes-Desafios/api/html/softdes.html, https://github.com/gustavoefeiche/SoftDes-Desafios/blob/master/softdes.py",
         "date": "2018-09-03"
     },
-  
+
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 20,
         "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios/wiki, https://gustavoefeiche.github.io/SoftDes-Desafios/",
         "date": "2018-08-29"
     },
-  
-    { 
+
+    {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 3,
         "proof": "https://github.com/igordsm/dev-aberto/pull/40",
@@ -96,7 +95,7 @@
         "proof": "https://github.com/igordsm/dev-aberto/wiki/Informa%C3%A7%C3%B5es-b%C3%A1sicas-para-come%C3%A7ar-a-contribuir-com-um-projeto",
         "date": "2018-08-08"
     },
-       
+
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 2,
@@ -142,41 +141,53 @@
         "proof": "https://github.com/spyder-ide/spyder/issues/2641",
         "date": "2018-08-22"
     },
+
     {
         "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "skill_id": 20,
         "proof": "https://github.com/chends888/SoftDes-Desafios/wiki",
         "date": "2018-09-03"
     },
+
     {
         "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "skill_id": 3,
         "proof": "https://github.com/spyder-ide/spyder/pull/7747",
         "date": "2018-08-22"
     },
+
     {
         "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
         "skill_id": 19,
         "proof": "https://github.com/elementary/switchboard-plug-about/issues/63",
         "date": "2018-08-27"
     },
+
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 21,
         "proof": "https://github.com/vitoriahmc/softdes-desafios",
         "date": "2018-09-03"
     },
+
     {
         "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
         "skill_id": 21,
         "proof": "https://github.com/marcelogdeandrade/SoftDes-Desafios/tree/translation",
         "date": "2018-09-03"
     },
+
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 20,
         "proof": "https://vitoriahmc.github.io/SoftDes-Desafios/",
         "date": "2018-09-05"
+    },
+
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 21,
+        "proof": "https://github.com/chends888/SoftDes-Desafios/",
+        "date": "2018-09-17"
     }
-    
 ]
