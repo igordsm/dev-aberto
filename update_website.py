@@ -50,7 +50,9 @@ if __name__ == "__main__":
     with open('docs/players.html', 'w') as f:
         f.write(out) 
 
-    out = skill_list_page.render(skills=skills)
+    sorted_skills = sorted(skills, key=lambda x: x['type'])
+
+    out = skill_list_page.render(skills=sorted_skills)
     with open('docs/skills.html', 'w') as f:
         f.write(out) 
 
