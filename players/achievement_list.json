@@ -259,6 +259,12 @@
     },
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 6,
+        "proof": "https://github.com/pandas-dev/pandas/pull/22737",
+        "date": "2018-09-18"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 11,
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
         "date": "2018-09-17"
@@ -268,6 +274,5 @@
         "skill_id": 5,      
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
         "date": "2018-09-17"
-    } 
-
+    }
 ]
