@@ -274,5 +274,11 @@
         "skill_id": 5,      
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
         "date": "2018-09-17"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 9,
+        "proof": "https://pt.stackoverflow.com/questions/330794/por-que-n%c3%a3o-entra-no-loop-das-notas/330818?noredirect=1#comment669738_330818",
+        "date": "2018-09-19"
     }
 ]
