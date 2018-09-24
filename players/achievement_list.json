@@ -307,5 +307,11 @@
         "skill_id": 8,
         "proof": "https://crowdin.com/profile/marcelogdeandrade/activity",
         "date": "2018-09-24"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 4,
+        "proof": "https://github.com/elementary/switchboard-plug-about/issues/63",
+        "date": "2018-09-24"
     }
 ]
