@@ -315,10 +315,15 @@
         "date": "2018-09-24"
     },
     {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 22,
+        "proof": "https://github.com/chends888/SoftDes-Desafios",
+        "date": "2018-09-24"
+    },
+    {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 8,
         "proof": "https://weblate.lxqt.org/languages/pt_BR/lxqt/#history",
         "date": "2018-09-24"
     }
-    
 ]
