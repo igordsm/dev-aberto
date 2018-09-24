@@ -42,23 +42,9 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
-        "skill_id": 21,
-        "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios",
-        "date": "2018-09-03"
-    },
-
-    {
-        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
-        "skill_id": 22,
-        "proof": "https://gustavoefeiche.github.io/SoftDes-Desafios/api/html/softdes.html, https://github.com/gustavoefeiche/SoftDes-Desafios/blob/master/softdes.py",
-        "date": "2018-09-03"
-    },
-
-    {
-        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
-        "skill_id": 20,
-        "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios/wiki, https://gustavoefeiche.github.io/SoftDes-Desafios/",
-        "date": "2018-08-29"
+        "skill_id": 2,
+        "proof": "https://github.com/igordsm/dev-aberto/wiki/Informa%C3%A7%C3%B5es-b%C3%A1sicas-para-come%C3%A7ar-a-contribuir-com-um-projeto",
+        "date": "2018-08-08"
     },
 
     {
@@ -70,9 +56,37 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 6,
+        "proof": "https://github.com/jupyter/notebook/commit/d772277c0bcaf129771e774e17310379cfa6652b",
+        "date": "2018-09-20"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 19,
         "proof": "https://github.com/igordsm/dev-aberto/issues/2#issuecomment-417281899",
         "date": "2018-09-02"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 20,
+        "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios/wiki, https://gustavoefeiche.github.io/SoftDes-Desafios/",
+        "date": "2018-08-29"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 21,
+        "proof": "https://github.com/gustavoefeiche/SoftDes-Desafios",
+        "date": "2018-09-03"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 22,
+        "proof": "https://gustavoefeiche.github.io/SoftDes-Desafios/api/html/softdes.html, https://github.com/gustavoefeiche/SoftDes-Desafios/blob/master/softdes.py",
+        "date": "2018-09-03"
     },
 
     {
@@ -110,12 +124,6 @@
         "date": "2018-08-08"
     },
 
-    {
-        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
-        "skill_id": 2,
-        "proof": "https://github.com/igordsm/dev-aberto/wiki/Informa%C3%A7%C3%B5es-b%C3%A1sicas-para-come%C3%A7ar-a-contribuir-com-um-projeto",
-        "date": "2018-08-08"
-    },
     {
 
         "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
