@@ -313,5 +313,12 @@
         "skill_id": 4,
         "proof": "https://github.com/elementary/switchboard-plug-about/issues/63",
         "date": "2018-09-24"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 8,
+        "proof": "https://weblate.lxqt.org/languages/pt_BR/lxqt/#history",
+        "date": "2018-09-24"
     }
+    
 ]
