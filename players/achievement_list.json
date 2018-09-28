@@ -325,11 +325,5 @@
         "skill_id": 8,
         "proof": "https://weblate.lxqt.org/languages/pt_BR/lxqt/#history",
         "date": "2018-09-24"
-    },
-    {
-        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
-        "skill_id": 21,
-        "proof": "https://github.com/marcelogdeandrade/SoftDes-Desafios/tree/translation",
-        "date": "2018-09-24"
     }
 ]
