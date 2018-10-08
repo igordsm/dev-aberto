@@ -214,6 +214,14 @@
         "type": "Community",
         "xp_value": 10,
         "badge": "presenter.svg"
+    },
+    {
+        "id": 27,
+        "name": "HacktoberFest",
+        "requisite": "Enviou 5 PRs no mês de outubro e entrou para o evento.",
+        "type": "Code",
+        "xp_value": 30,
+        "badge": "hacktoberfest.svg"
     }
 ]
 
