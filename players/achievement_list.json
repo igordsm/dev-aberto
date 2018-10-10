@@ -325,5 +325,19 @@
         "skill_id": 8,
         "proof": "https://weblate.lxqt.org/languages/pt_BR/lxqt/#history",
         "date": "2018-09-24"
+    },
+    {
+
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 5,
+        "proof": "https://github.com/amcquade/fresh_script/pull/27",
+        "date": "2018-10-08"
+    },
+    {
+
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 19,
+        "proof": "https://github.com/igordsm/dev-aberto/issues/5",
+        "date": "2018-09-08"
     }
 ]
