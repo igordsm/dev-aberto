@@ -327,7 +327,6 @@
         "date": "2018-09-24"
     },
     {
-
         "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "skill_id": 5,
         "proof": "https://github.com/amcquade/fresh_script/pull/27",
@@ -339,5 +338,11 @@
         "skill_id": 19,
         "proof": "https://github.com/igordsm/dev-aberto/issues/5",
         "date": "2018-09-08"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 9,
+        "proof": " https://pt.stackoverflow.com/questions/335047/mesclando-duas-colunas-em-uma-nova-coluna-de-nome-classe-dataframe-pandas/335107#335107",
+        "date": "2018-10-10"
     }
 ]
