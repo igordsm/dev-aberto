@@ -279,6 +279,30 @@
         "date": "2018-08-29"
     },
     {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 11,
+        "proof": "https://github.com/CleverRaven/Cataclysm-DDA/pull/25764",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 5,
+        "proof": "https://github.com/CleverRaven/Cataclysm-DDA/pull/25764",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 6,
+        "proof": "https://github.com/CleverRaven/Cataclysm-DDA/pull/25764",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 8,
+        "proof": "https://www.transifex.com/cataclysm-dda-translators/cataclysm-dda/translate/#pt_BR/stable-cataclysm-dda/41687244?q=translator%3AFormulos",
+        "date": "2018-09-15"
+    },
+    {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 6,
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
