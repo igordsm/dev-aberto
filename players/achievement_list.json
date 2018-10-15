@@ -344,5 +344,11 @@
         "skill_id": 9,
         "proof": " https://pt.stackoverflow.com/questions/335047/mesclando-duas-colunas-em-uma-nova-coluna-de-nome-classe-dataframe-pandas/335107#335107",
         "date": "2018-10-10"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 6,
+        "proof": "https://github.com/amcquade/fresh_script/pull/27",
+        "date": "2018-10-15"
     }
 ]
