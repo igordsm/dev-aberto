@@ -195,7 +195,7 @@
         "id": 24,
         "name": "Toca Raul",
         "requisite": "Resolveu uma issue no sistema de Desafios de Design de Software",
-        "type": "Code",
+        "type": "Community",
         "xp_value": 5,
         "badge": "guitar.svg"
     },
@@ -219,7 +219,7 @@
         "id": 27,
         "name": "HacktoberFest",
         "requisite": "Enviou 5 PRs no mês de outubro e entrou para o evento.",
-        "type": "Code",
+        "type": "Community",
         "xp_value": 30,
         "badge": "hacktoberfest.svg"
     }
