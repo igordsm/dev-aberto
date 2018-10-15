@@ -222,6 +222,14 @@
         "type": "Community",
         "xp_value": 30,
         "badge": "hacktoberfest.svg"
+    },
+    {
+        "id": 28,
+        "name": "Meta contribuição",
+        "requisite": "PR para uma das issues da disciplina aceito.",
+        "type": "Community",
+        "xp_value": 5,
+        "badge": "meta-contribution.svg"
     }
 ]
 
