@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Professor",
         "requisite": "Confere poderes extraordinários ao professor da disciplina.",
-        "type": "Classroom",
+        "type": "Code",
         "xp_value": 1000,
         "badge": "teacher.svg"
     },
@@ -190,6 +190,55 @@
         "type": "Documentation",
         "xp_value": 10,
         "badge": "book-revision.svg"
+    },
+    {
+        "id": 24,
+        "name": "Toca Raul",
+        "requisite": "Resolveu uma issue no sistema de Desafios de Design de Software",
+        "type": "Community",
+        "xp_value": 5,
+        "badge": "guitar.svg"
+    },
+    {
+        "id": 25,
+        "name": "Evento de verdade!",
+        "requisite": "Participou pessoalmente de um evento da área.",
+        "type": "Community",
+        "xp_value": 5,
+        "badge": "meeting.svg"
+    },
+    {
+        "id": 26,
+        "name": "Professor por um dia",
+        "requisite": "Criou uma atividade de sala de aula para o curso e a aplicou.",
+        "type": "Community",
+        "xp_value": 10,
+        "badge": "presenter.svg"
+    },
+    {
+        "id": 27,
+        "name": "HacktoberFest",
+        "requisite": "Enviou 5 PRs no mês de outubro e entrou para o evento.",
+        "type": "Community",
+        "xp_value": 30,
+        "badge": "hacktoberfest.svg"
+    },
+    {
+        "id": 28,
+        "name": "Meta contribuição",
+        "requisite": "PR para uma das issues da disciplina aceito.",
+        "type": "Community",
+        "xp_value": 5,
+        "badge": "meta-contribution.svg"
+    },
+    {
+        "id": 29,
+        "name": "Pacote Python",
+        "requisite": "Completou tutorial de criação de pacote Python.",
+        "type": "Code",
+        "xp_value": 3,
+        "badge": "python.svg"
     }
-
+    
 ]
+
