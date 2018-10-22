@@ -279,6 +279,30 @@
         "date": "2018-08-29"
     },
     {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 11,
+        "proof": "https://github.com/CleverRaven/Cataclysm-DDA/pull/25764",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 5,
+        "proof": "https://github.com/CleverRaven/Cataclysm-DDA/pull/25764",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 6,
+        "proof": "https://github.com/CleverRaven/Cataclysm-DDA/pull/25764",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 8,
+        "proof": "https://www.transifex.com/cataclysm-dda-translators/cataclysm-dda/translate/#pt_BR/stable-cataclysm-dda/41687244?q=translator%3AFormulos",
+        "date": "2018-09-15"
+    },
+    {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 6,
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
@@ -325,5 +349,42 @@
         "skill_id": 8,
         "proof": "https://weblate.lxqt.org/languages/pt_BR/lxqt/#history",
         "date": "2018-09-24"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 5,
+        "proof": "https://github.com/amcquade/fresh_script/pull/27",
+        "date": "2018-10-08"
+    },
+    {
+
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 19,
+        "proof": "https://github.com/igordsm/dev-aberto/issues/5",
+        "date": "2018-09-08"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 9,
+        "proof": " https://pt.stackoverflow.com/questions/335047/mesclando-duas-colunas-em-uma-nova-coluna-de-nome-classe-dataframe-pandas/335107#335107",
+        "date": "2018-10-10"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 6,
+        "proof": "https://github.com/amcquade/fresh_script/pull/27",
+        "date": "2018-10-15"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 3,
+        "proof": "https://github.com/elementary/switchboard-plug-about/pull/67",
+        "date": "2018-10-15"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/elementary/switchboard-plug-mouse-touchpad/pull/44",
+        "date": "2018-10-15"
     }
 ]
