@@ -386,5 +386,11 @@
         "skill_id": 5,
         "proof": "https://github.com/elementary/switchboard-plug-mouse-touchpad/pull/44",
         "date": "2018-10-15"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 29,
+        "proof": "https://github.com/marcelogdeandrade/TestPythonModule",
+        "date": "2018-10-22"
     }
 ]
