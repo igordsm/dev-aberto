@@ -400,9 +400,15 @@
         "date": "2018-10-22"
     },
     {
-        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "skill_id": 29,
         "proof": "https://github.com/joaoppc/Pacotes",
         "date": "2018-10-22"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 12,
+        "proof": "https://github.com/igordsm/dev-aberto/pull/78",
+        "date": "2018-10-24"
     }
 ]
