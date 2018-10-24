@@ -274,6 +274,12 @@
     },
     {
         "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 29,
+        "proof": "https://github.com/Formulos/python_package_temp",
+        "date": "2018-09-22"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
         "skill_id": 22,
         "proof": "https://github.com/Formulos/SoftDes-Desafios/tree/master/sphinx",
         "date": "2018-08-29"
@@ -400,9 +406,15 @@
         "date": "2018-10-22"
     },
     {
-        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "skill_id": 29,
         "proof": "https://github.com/joaoppc/Pacotes",
         "date": "2018-10-22"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 12,
+        "proof": "https://github.com/igordsm/dev-aberto/pull/78",
+        "date": "2018-10-24"
     }
 ]
