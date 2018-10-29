@@ -230,6 +230,15 @@
         "type": "Community",
         "xp_value": 5,
         "badge": "meta-contribution.svg"
+    },
+    {
+        "id": 29,
+        "name": "Pacote Python",
+        "requisite": "Completou tutorial de criação de pacote Python.",
+        "type": "Code",
+        "xp_value": 3,
+        "badge": "python.svg"
     }
+    
 ]
 
