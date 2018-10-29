@@ -422,5 +422,11 @@
         "skill_id": 20,
         "proof": "http://marceloandrade.me/SoftDes-Desafios/",
         "date": "2018-08-27"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 8,
+        "proof": "https://imgur.com/gallery/5CEzFly",
+        "date": "2018-10-29"
     }
 ]
