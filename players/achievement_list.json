@@ -386,5 +386,17 @@
         "skill_id": 5,
         "proof": "https://github.com/elementary/switchboard-plug-mouse-touchpad/pull/44",
         "date": "2018-10-15"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 8,
+        "proof": "https://github.com/joaoppc/SoftDes-Desafios",
+        "date": "2018-10-29"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 10,
+        "proof": "https://github.com/joaoppc/SoftDes-Desafios",
+        "date": "2018-10-29"
     }
 ]
