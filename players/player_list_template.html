@@ -64,13 +64,24 @@
                 {% for sk in plr.skills %}
                     <div class="skill">
                         <img src="{{ sk.raw_img }}" class="badge">
-                        <div class="skill-info">
-                            {{ sk.requisite }}
-                            <br></br>
-                            XP: {{ sk.xp_value }}
-                            <br></br>
-                            Tipo: {{ sk.type }}
-                        </div>
+                            {% if sk.type == "Classroom" %}
+                                <div class="skill-classroom skill-info">
+                            {% endif %}
+                            {% if sk.type == "Code" %}
+                                <div class="skill-code skill-info">
+                            {% endif %}
+                            {% if sk.type == "Community" %}
+                                <div class="skill-community skill-info">
+                            {% endif %}
+                            {% if sk.type == "Documentation" %}
+                                <div class="skill-documentation skill-info">
+                            {% endif %}
+                                    {{ sk.requisite }}
+                                    <br></br>
+                                    XP: {{ sk.xp_value }}
+                                    <br></br>
+                                    Tipo: {{ sk.type }}
+                                </div>
                     </div>
                 {% endfor %}
                 <p>

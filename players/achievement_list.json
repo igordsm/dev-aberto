@@ -416,5 +416,11 @@
         "skill_id": 12,
         "proof": "https://github.com/igordsm/dev-aberto/pull/78",
         "date": "2018-10-24"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 20,
+        "proof": "http://marceloandrade.me/SoftDes-Desafios/",
+        "date": "2018-08-27"
     }
 ]
