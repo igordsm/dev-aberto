@@ -422,5 +422,11 @@
         "skill_id": 20,
         "proof": "http://marceloandrade.me/SoftDes-Desafios/",
         "date": "2018-08-27"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 26,
+        "proof": "https://github.com/igordsm/dev-aberto/tree/master/aulas",
+        "date": "2018-11-01"
     }
 ]
