@@ -428,5 +428,11 @@
         "skill_id": 26,
         "proof": "https://igordsm.github.io/dev-aberto/aulas.html",
         "date": "2018-11-01"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 28,
+        "proof": "https://github.com/igordsm/dev-aberto/pull/80",
+        "date": "2018-11-05"
     }
 ]
