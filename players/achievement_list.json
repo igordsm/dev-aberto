@@ -56,6 +56,13 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 5,
+        "proof": "https://github.com/jupyter/notebook/pull/3949",
+        "date": "2018-09-20"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 6,
         "proof": "https://github.com/jupyter/notebook/commit/d772277c0bcaf129771e774e17310379cfa6652b",
         "date": "2018-09-20"
@@ -91,9 +98,9 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
-        "skill_id": 5,
-        "proof": "https://github.com/jupyter/notebook/pull/3949",
-        "date": "2018-09-20"
+        "skill_id": 28,
+        "proof": "https://github.com/igordsm/dev-aberto/pull/27",
+        "date": "2018-11-05"
     },
 
     {
