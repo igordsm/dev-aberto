@@ -441,5 +441,11 @@
         "skill_id": 28,
         "proof": "https://github.com/igordsm/dev-aberto/pull/80",
         "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 8,
+        "proof": "https://imgur.com/gallery/5CEzFly",
+        "date": "2018-11-07"
     }
 ]
