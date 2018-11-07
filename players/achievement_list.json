@@ -70,6 +70,13 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 7,
+        "proof": "https://groups.google.com/forum/#!topic/django-i18n/aOdlVLiNaC8",
+        "date": "2018-11-05"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 19,
         "proof": "https://github.com/igordsm/dev-aberto/issues/2#issuecomment-417281899",
         "date": "2018-09-02"
