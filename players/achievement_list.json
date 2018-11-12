@@ -486,5 +486,12 @@
         "skill_id": 5,
         "proof": "https://github.com/python-telegram-bot/python-telegram-bot/pull/1216",
         "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 30,
+        "proof": "https://github.com/igordsm/dev-aberto/blob/master/aulas/19-arquivos%20.deb/vitoria.deb",
+        "date": "2018-11-12"
     }
+
 ]
