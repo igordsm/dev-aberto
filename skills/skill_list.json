@@ -204,7 +204,7 @@
         "name": "Evento de verdade!",
         "requisite": "Participou pessoalmente de um evento da área.",
         "type": "Community",
-        "xp_value": 5,
+        "xp_value": 15,
         "badge": "meeting.svg"
     },
     {
@@ -247,7 +247,18 @@
         "type": "Code",
         "xp_value": 3,
         "badge": "debian.png"
+    },
+    
+    {
+        "id": 31,
+        "name": "Discussão sobre código de ética",
+        "requisite": "Completou discussão sobre tema polêmico e emitiu um posicionamento.",
+        "type": "Classroom",
+        "xp_value": 3,
+        "badge": "discussion-ethics.png"
     }
+    
+    
     
 ]
 
