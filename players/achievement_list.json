@@ -125,6 +125,13 @@
     },
 
     {
+	"player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+	"skill_id": 30,
+	"proof": "<repository_root>/aulas/19-arquivos .deb/MyFirstDeb.deb",
+	"date": "2018-11-12"
+    },
+
+    {
 
         "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "skill_id": 1,
