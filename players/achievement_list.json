@@ -470,6 +470,8 @@
         "date": "2018-11-07"
     },
     
+<<<<<<< HEAD
+    
     
     {
         "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
@@ -506,5 +508,24 @@
         "skill_id": 31,
         "proof": "",
         "date": "2018-11-05"
+    },
+    
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/elementary/switchboard-plug-about/pull/67",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/elementary/code/pull/511",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/python-telegram-bot/python-telegram-bot/pull/1216",
+        "date": "2018-11-12"
     }
 ]
