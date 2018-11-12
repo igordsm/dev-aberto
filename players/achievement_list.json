@@ -304,6 +304,12 @@
     },
     {
         "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 26,
+        "proof": "https://github.com/igordsm/dev-aberto/blob/ee9977920230e27b99c4000eb53d666e158902e2/aulas/19-arquivos%20.deb/19%20-%20arquivos%20.deb.pdf",
+        "date": "2018-09-15"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
         "skill_id": 8,
         "proof": "https://www.transifex.com/cataclysm-dda-translators/cataclysm-dda/translate/#pt_BR/stable-cataclysm-dda/41687244?q=translator%3AFormulos",
         "date": "2018-09-15"
