@@ -486,5 +486,11 @@
         "skill_id": 5,
         "proof": "https://github.com/python-telegram-bot/python-telegram-bot/pull/1216",
         "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 30,
+        "proof": "",
+        "date": "2018-11-12"
     }
 ]
