@@ -238,6 +238,15 @@
         "type": "Code",
         "xp_value": 3,
         "badge": "python.svg"
+    },
+    
+    {
+        "id": 30,
+        "name": "Pacote Debian",
+        "requisite": "Completou tutorial de criação de pacote Debian.",
+        "type": "Code",
+        "xp_value": 3,
+        "badge": "debian.png"
     }
     
 ]

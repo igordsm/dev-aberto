@@ -2,6 +2,9 @@
     {
         "github_name": "igordsm",
         "email_insper": "igorsm1@insper.edu.br",
+        "facebook_name": "igor.montagner.1",
+        "linkedin_name": "igor-montagner-1a7b8531",
+        "twitter_name": "",
         "uuid": "37c83c20-814c-11e8-bc06-40e2302671c3",
         "avatar_image": "igordsm.png"
     },
@@ -9,6 +12,9 @@
     {
         "github_name": "joaoppc",
         "email_insper": "joaoppc@al.insper.edu.br",
+        "facebook_name": "jppc92",
+        "linkedin_name": "joão-pedro-pieroni-de-castro-2288b4108",
+        "twitter_name": "",
         "uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "avatar_image": "joaoppc.svg"
     },
@@ -16,6 +22,9 @@
     {
         "github_name": "chends888",
         "email_insper": "lucasca2@al.insper.edu.br",
+        "facebook_name": "chends888",
+        "linkedin_name": "chends",
+        "twitter_name": "",
         "uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "avatar_image": "lucasca2.svg"
     },
@@ -23,6 +32,9 @@
     {
         "github_name": "formulos",
         "email_insper": "paulotp@al.insper.edu.br",
+        "facebook_name": "",
+        "linkedin_name": "",
+        "twitter_name": "",
         "uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
         "avatar_image": "paulotp.svg"
     },
@@ -30,6 +42,9 @@
     {
         "github_name": "vitoriahmc",
         "email_insper": "vitoriahmc@al.insper.edu.br",
+        "facebook_name": "toriamattos",
+        "linkedin_name": "vitória-camilo-068842131",
+        "twitter_name": "",
         "uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "avatar_image": "vitoriahmc.svg"
 	},
@@ -37,6 +52,9 @@
     {
         "github_name": "marcelogdeandrade",
         "email_insper": "marceloga1@insper.edu.br",
+        "facebook_name": "marcelo.andrade.77312477",
+        "linkedin_name": "marcelogdeandrade",
+        "twitter_name": "",
         "uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
         "avatar_image": "marceloga1.svg"
     },
@@ -44,6 +62,9 @@
     {
         "github_name": "gustavoefeiche",
         "email_insper": "gustavoe1@insper.edu.br",
+        "facebook_name": "gustavo.efeiche",
+        "linkedin_name": "gustavo-efeiche-a471a612a",
+        "twitter_name": "",
         "uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "avatar_image": "gustavoefeiche.svg"
     }
