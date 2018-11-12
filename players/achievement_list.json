@@ -56,9 +56,30 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 5,
+        "proof": "https://github.com/jupyter/notebook/pull/3949",
+        "date": "2018-09-20"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 5,
+        "proof": "https://github.com/jupyter/notebook/pull/4030",
+        "date": "2018-11-07"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 6,
         "proof": "https://github.com/jupyter/notebook/commit/d772277c0bcaf129771e774e17310379cfa6652b",
         "date": "2018-09-20"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 7,
+        "proof": "https://groups.google.com/forum/#!topic/django-i18n/aOdlVLiNaC8",
+        "date": "2018-11-05"
     },
 
     {
@@ -91,9 +112,16 @@
 
     {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
-        "skill_id": 5,
-        "proof": "https://github.com/jupyter/notebook/pull/3949",
-        "date": "2018-09-20"
+        "skill_id": 24,
+        "proof": "https://github.com/raulikeda/SoftDes-Desafios/pull/12",
+        "date": "2018-11-07"
+    },
+
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 28,
+        "proof": "https://github.com/igordsm/dev-aberto/pull/27",
+        "date": "2018-11-05"
     },
 
     {
@@ -428,5 +456,41 @@
         "skill_id": 26,
         "proof": "https://igordsm.github.io/dev-aberto/aulas.html",
         "date": "2018-11-01"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 28,
+        "proof": "https://github.com/igordsm/dev-aberto/pull/80",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 8,
+        "proof": "https://imgur.com/gallery/5CEzFly",
+        "date": "2018-11-07"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/elementary/switchboard-plug-about/pull/67",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/elementary/code/pull/511",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 5,
+        "proof": "https://github.com/python-telegram-bot/python-telegram-bot/pull/1216",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 30,
+        "proof": "https://github.com/igordsm/dev-aberto/blob/master/aulas/19-arquivos%20.deb/vitoria.deb",
+        "date": "2018-11-12"
     }
 ]
