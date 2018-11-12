@@ -350,7 +350,7 @@
     },
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
-        "skill_id": 5,      
+        "skill_id": 5,
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
         "date": "2018-09-17"
     },
@@ -426,7 +426,7 @@
         "skill_id": 29,
         "proof": "https://github.com/marcelogdeandrade/TestPythonModule",
         "date": "2018-10-22"
-    }, 
+    },
     {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 29,
@@ -492,5 +492,41 @@
         "skill_id": 5,
         "proof": "https://github.com/python-telegram-bot/python-telegram-bot/pull/1216",
         "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
     }
 ]
