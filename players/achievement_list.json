@@ -83,6 +83,13 @@
     },
 
     {
+    	"player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+	"skill_id": 8,
+	"proof": "https://i.imgur.com/UadY2Da.png",
+	"date": "2018-11-12"
+    },
+
+    {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 19,
         "proof": "https://github.com/igordsm/dev-aberto/issues/2#issuecomment-417281899",
