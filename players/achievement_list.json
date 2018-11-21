@@ -83,6 +83,13 @@
     },
 
     {
+    	"player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+	"skill_id": 8,
+	"proof": "https://i.imgur.com/UadY2Da.png",
+	"date": "2018-11-12"
+    },
+
+    {
         "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
         "skill_id": 19,
         "proof": "https://github.com/igordsm/dev-aberto/issues/2#issuecomment-417281899",
@@ -122,6 +129,13 @@
         "skill_id": 28,
         "proof": "https://github.com/igordsm/dev-aberto/pull/27",
         "date": "2018-11-05"
+    },
+
+    {
+	"player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+	"skill_id": 30,
+	"proof": "<repository_root>/aulas/19-arquivos .deb/MyFirstDeb.deb",
+	"date": "2018-11-12"
     },
 
     {
@@ -332,6 +346,12 @@
     },
     {
         "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 26,
+        "proof": "https://github.com/igordsm/dev-aberto/blob/ee9977920230e27b99c4000eb53d666e158902e2/aulas/19-arquivos%20.deb/19%20-%20arquivos%20.deb.pdf",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
         "skill_id": 8,
         "proof": "https://www.transifex.com/cataclysm-dda-translators/cataclysm-dda/translate/#pt_BR/stable-cataclysm-dda/41687244?q=translator%3AFormulos",
         "date": "2018-09-15"
@@ -469,6 +489,44 @@
         "proof": "https://imgur.com/gallery/5CEzFly",
         "date": "2018-11-07"
     },
+    
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    {
+        "player_uuid": "94d4d46e-99b1-11e8-9c34-38b1dbcccced",
+        "skill_id": 31,
+        "proof": "",
+        "date": "2018-11-05"
+    },
+    
     {
         "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
         "skill_id": 5,
@@ -491,6 +549,12 @@
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 30,
         "proof": "https://github.com/igordsm/dev-aberto/blob/master/aulas/19-arquivos%20.deb/vitoria.deb",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "1b414712-99b2-11e8-b40f-9cb6d0d612c5",
+        "skill_id": 30,
+        "proof": "Na aula 19",
         "date": "2018-11-12"
     }
 
