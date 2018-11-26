@@ -51,11 +51,17 @@
                 <a href="#"><span class="close">X</span></a>
             <h2>
                 {{ plr.github_name }}
-                <a href="http://github.com/{{ plr.github_name }}">
-                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="32px"></a>
-                <a href="mailto:{{ plr.email_insper}}">
-                    <img src="css/mail.png" height="32px">
-                </a>
+                <a href="http://github.com/{{ plr.github_name }}"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="32px"></a>
+                <a href="mailto:{{ plr.email_insper}}"><img src="css/mail.png" height="32px"></a>
+                {% if plr.facebook_name != "" %}
+                <a href="https://facebook.com/{{ plr.facebook_name }}"><img src="css/facebook-512.png" height="32px"></a>
+                {% endif %}
+                {% if plr.linkedin_name != "" %}
+                <a href="https://www.linkedin.com/in/{{ plr.linkedin_name }}"><img src="css/linkedin.png" height="32px"></a>
+                {% endif %}
+                {% if plr.twitter_name != "" %}
+                <a href="https://twitter.com/{{ plr.twitter_name }}"><img src="css/twitter_circle-512.png" height="32px"></a>
+                {% endif %}
             </h2>
             <img class="avatar" src="{{ plr.raw_img }}"width="100px" height="100px">
 
@@ -64,13 +70,24 @@
                 {% for sk in plr.skills %}
                     <div class="skill">
                         <img src="{{ sk.raw_img }}" class="badge">
-                        <div class="skill-info">
-                            {{ sk.requisite }}
-                            <br></br>
-                            XP: {{ sk.xp_value }}
-                            <br></br>
-                            Tipo: {{ sk.type }}
-                        </div>
+                            {% if sk.type == "Classroom" %}
+                                <div class="skill-classroom skill-info">
+                            {% endif %}
+                            {% if sk.type == "Code" %}
+                                <div class="skill-code skill-info">
+                            {% endif %}
+                            {% if sk.type == "Community" %}
+                                <div class="skill-community skill-info">
+                            {% endif %}
+                            {% if sk.type == "Documentation" %}
+                                <div class="skill-documentation skill-info">
+                            {% endif %}
+                                    {{ sk.requisite }}
+                                    <br></br>
+                                    XP: {{ sk.xp_value }}
+                                    <br></br>
+                                    Tipo: {{ sk.type }}
+                                </div>
                     </div>
                 {% endfor %}
                 <p>
