@@ -1,0 +1,115 @@
+[
+	{
+		"name":"Ciclo de vida de um bug",
+		"class":"01",
+		"content": ["Apresentação da disciplina","Ciclo de vida de um bug"],
+		"activity":["Primeiro Pull Request na disciplina","Discussão: Processo de recepção/acompanhamento de feedback de usuários"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/01-ciclo-de-vida-bug/01-slides.pdf","https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/01-ciclo-de-vida-bug/01-roteiro.pdf"],
+		"link_type":["Slides","Handout"]
+	},
+	{
+		"name":"Comunidades de Software",
+		"class":"02",
+		"content":["Quem está envolvido com desenvolvimento de software livre","Como projetos se organizam?"],
+		"activity":["Discussão: quais softwares vocês usam? Quem os desenvolve e por quê?","Atividade: pesquisar como são organizados alguns projetos de software livre e escrever um documento colaborativo."],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/02-comunidades-software/02-slides.pdf","https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/02-comunidades-software/02-roteiro.pdf"],
+		"link_type":["Slides","Handout"]
+	},
+	{
+		"name":"Primeira Contribuição",
+		"class":"03",
+		"content":["Dificuldades que iniciantes enfrentam ao iniciar em um projeto"],
+		"activity":["Discussão: como minimizar as dificuldades ao iniciar em um projeto?","Atividade: escolha de um projeto para a primeira contribuição"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/03-primeira-contribuicao/03-slides.pdf"],
+		"link_type":["Slides"]
+	},
+	{
+		"name":"Debugando o projeto",
+		"class":"04",
+		"content":["Problemas básicos tratados por sistemas de gerenciamento de código \"compilação e dependências\"","Aplicando 4 regras de Debugging do livro no nosso projeto","Como se encontrar no projeto usando `grep`"],
+		"activity":["Registro do projeto/issue escolhido - Skill \"Eu escolho você!\"","Compilação do projeto escolhido e criação de uma lista de tarefas necessárias."],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/04-debug/04-slides.pdf"],
+		"link_type":["Slides"]
+	},
+	{
+		"name":"Debugando o projeto",
+		"class":"05 e 06",
+		"content":["9 regras de debugging: contextualizando no seu projeto.","Aula estúdio para trabalho no projeto escolhido."],
+		"activity":["Registro do projeto/issue escolhido - Skill \"Eu escolho você!\"","Envio de um Pull Request para o projeto escolhido - Skill \"Primeiro Bug\""],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/05-debugII/05-slides.pdf","https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/06-debugIII/06-slides.pdf"],
+		"link_type":["Slides-05","Slides-06"]
+	},
+	{
+		"name":"Documentação",
+		"class":"07",
+		"content":["Documentação de usuário e desenvolvedor.","Ferramentas para criação e hospedagem de documentação."],
+		"activity":["Estudo de um software que não acompanha documentação.","Criação de uma documentação de usuário e desenvolvimento para este software - Skill (Caminho encontrado)"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/07-documentacao/07-slides.pdf","https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/07-documentacao/07-roteiro.pdf"],
+		"link_type":["Slides","Roteiro"]
+	},
+	{
+		"name":"Tradução de software",
+		"class":"08",
+		"content":["Internacionalização e Localização de código."],
+		"activity":["Tradução de um programa linha de comando usando *babel*","Tradução de uma aplicação *Flask* usando *Flask-babel*."],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/08-traducao/08-slides.pdf","https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/08-traducao/08-roteiro.pdf"],
+		"link_type":["Slides","Roteiro"]
+	},
+	{
+		"name":"Documentação de API, qualidade de código e testes",
+		"class":"09",
+		"content":["Motivar uso de ferramentas para documentação de API e qualidade de código.","(Re)Apresentação da ideia de testes unitários."],
+		"activity":["Criação de documentação de API usando <b>sphinx-apidoc","Utilização das ferramentas pylint e pytest"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/09-api-padroes-de-codigo/09-slides.pdf"],
+		"link_type":["Slides"]
+	},
+	{
+		"name":"Licenças de software",
+		"class":"10",
+		"content":["Distribuição de software","Direitos autorais, copyright e licenças de software"],
+		"activity":["Discussão sobre licenças de software (livre) e seu impacto em um projeto.","Produção de um pequeno texto sobre a <i>Commons Clause"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/10-licensas/10-slides.pdf"],
+		"link_type":["Slides"]
+	},
+	{
+		"name":"Início do projeto",
+		"class":"11",
+		"content":["Apresentação do projeto da disciplina."],
+		"activity":["Escolha de projetos interessantes","Planejamento do primeiro sprint da disciplina"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/11-projeto/11-slides.pdf"],
+		"link_type":["Slides"]
+	},
+	{
+		"name":"Projeto",
+		"class":"12 a 15",
+		"content":[""],
+		"activity":["Trabalho em projetos Open Source"],
+		"links":[""],
+		"link_type":[""]
+	},
+	{
+		"name":"Projeto",
+		"class":"16 a 19",
+		"content":["Avisos de novas skills e anúncio da <a href=\"https://hacktoberfest.digitalocean.com\">Hacktober Fest</a>"],
+		"activity":["Trabalho em projetos Open Source"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/16-avisos/16-slides.pdf"],
+		"link_type":["Slides"]
+	},
+	{
+		"name":"Pacotes Python",
+		"class":"20",
+		"content":["Estrutura de um Pacote Python","Tipos de distribuição","Dependências"],
+		"activity":["Criação de um pacote Python simples e upload para o TestPyPI"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/17-pacotes-python/17-roteiro.pdf"],
+		"link_type":["Handout"]
+	},
+	{
+		"name":"Código de conduta",
+		"class":"21",
+		"content":["Atividade preparada pela aluna <a href=\" https://github.com/vitoriahmc\"> Vitória Camilo</a>"],
+		"activity":["Discussão sobre uma situação hipotética de conduta duvidosa no contexto de um projeto","Criação de um texto de posicionamento sobre a situação acima"],
+		"links":["https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/18-codigo-de-conduta/18-slides.pptx","https://raw.githubusercontent.com/igordsm/dev-aberto/master/aulas/18-codigo-de-conduta/press-release.txt"],
+		"link_type":["Slides","Posicionamento público"]
+	}
+	
+]

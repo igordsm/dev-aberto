@@ -66,9 +66,24 @@ if __name__ == "__main__":
     with open('skills/skills.html') as f:
         skill_list_page = Template(f.read())
 
+
+    with open('aula_template/aulas_template.html') as f:
+        aulas_list_page = Template(f.read())
+
+
+    with open('index/index_template.html') as f:
+        index_page = Template(f.read())
+    
+
+    with open('regras/regras_template.html') as f:
+        regras_page = Template(f.read())    
+
     
     with open('players/player_list.json') as pfp:
         players = json.load(pfp)
+
+    with open('aula_template/aulas_list.json') as pfp:
+        aulas = json.load(pfp)
     
     with open('skills/skill_list.json') as pfp:
         skills = json.load(pfp)
@@ -98,6 +113,7 @@ if __name__ == "__main__":
         plr["skills"].sort(key=lambda t: t["id"])
         compute_grade(plr, skills)
         
+
     out = player_list_page.render(players=players)
     with open('docs/players.html', 'w') as f:
         f.write(out) 
@@ -106,5 +122,17 @@ if __name__ == "__main__":
 
     out = skill_list_page.render(skills=sorted_skills)
     with open('docs/skills.html', 'w') as f:
+        f.write(out) 
+
+    out = aulas_list_page.render(aulas=aulas)
+    with open('docs/aulas.html', 'w') as f:
+        f.write(out) 
+
+    out = index_page.render()
+    with open('docs/index.html', 'w') as f:
+        f.write(out) 
+
+    out = regras_page.render()
+    with open('docs/regras.html', 'w') as f:
         f.write(out) 
 
