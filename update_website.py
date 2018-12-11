@@ -13,6 +13,12 @@ def has_skill(plr, sk):
             return True
     return False
 
+def has_skill_type(plr, tp):
+    for plr_sk in plr["skills"]:
+        if plr_sk["type"] == tp:
+            return True
+    return False
+
 def compute_grade(plr, skills):
     if has_skill(plr, get_skill_by_id(skills, 0)):
         plr["level_name"] = "Professor"
@@ -28,7 +34,8 @@ def compute_grade(plr, skills):
     plr["level_name"] = "Newbie"
     
     if plr["xp"] >= 50 and has_skill(plr, get_skill_by_id(skills, 5)) and \
-    has_skill(plr, get_skill_by_id(skills, 8)) and has_skill(plr, get_skill_by_id(skills, 9)):
+    has_skill(plr, get_skill_by_id(skills, 8)) and \
+    (has_skill(plr, get_skill_by_id(skills, 9)) or has_skill_type(plr, "Community")):
         plr["level_name"] = "Iniciado"
     else:
         return 
