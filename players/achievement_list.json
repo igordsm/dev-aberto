@@ -570,40 +570,10 @@
         "date": "2018-11-12"
 
     },
-        {
-        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
-        "skill_id": 21,
-        "proof": "https://github.com/joaoppc/SoftDes-Desafios",
-        "date": "2018-10-29"
-    },
-    {
-        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
-        "skill_id": 20,
-        "proof": "https://github.com/joaoppc/SoftDes-Desafios",
-        "date": "2018-11-07"
-    },
-    {
-        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
-        "skill_id": 22,
-        "proof": "https://github.com/joaoppc/SoftDes-Desafios",
-        "date": "2018-11-07"
-    },
     {
         "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
         "skill_id": 3,
         "proof": "",
-        "date": "2018-11-28"
-    },
-    {
-        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
-        "skill_id": 27,
-        "proof": "E-mail da Hacktoberfest\"You did it! Congratulations on submitting five (or more) pull requests and contributing to open source projects this month\"",
-        "date": "2018-11-07"
-    },
-    {
-        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
-        "skill_id": 9,
-        "proof": "https://en.wikipedia.org/wiki/Gabriela_Guimar%C3%A3es",
         "date": "2018-11-28"
     }
 
