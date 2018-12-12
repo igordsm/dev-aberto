@@ -1,4 +1,5 @@
-from jinja2 import Template
+# -*- coding: utf-8 -*-
+from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 import json
 
 def get_skill_by_id(skills, skid):
@@ -59,16 +60,28 @@ def compute_grade(plr, skills):
     
 
 if __name__ == "__main__":
-    with open('players/player_list_template.html') as f:
-        player_list_page = Template(f.read())
+   
+    env = Environment( loader = FileSystemLoader('templates/') ,autoescape=select_autoescape(['html']))
+
+    player_list_page = env.get_template('player_list_template.html')
+    
+    skill_list_page = env.get_template('skills.html')
+
+    aulas_list_page = env.get_template('aulas_template.html')
+
+    index_page = env.get_template('index_template.html')
+    
+    regras_page = env.get_template('regras_template.html')
 
 
-    with open('skills/skills.html') as f:
-        skill_list_page = Template(f.read())
+
 
     
     with open('players/player_list.json') as pfp:
         players = json.load(pfp)
+
+    with open('aula_template/aulas_list.json') as pfp:
+        aulas = json.load(pfp)
     
     with open('skills/skill_list.json') as pfp:
         skills = json.load(pfp)
@@ -98,13 +111,27 @@ if __name__ == "__main__":
         plr["skills"].sort(key=lambda t: t["id"])
         compute_grade(plr, skills)
         
+
     out = player_list_page.render(players=players)
     with open('docs/players.html', 'w') as f:
         f.write(out) 
 
     sorted_skills = sorted(skills, key=lambda x: x['type'])
 
+
     out = skill_list_page.render(skills=sorted_skills)
     with open('docs/skills.html', 'w') as f:
+        f.write(out) 
+
+    out = aulas_list_page.render(aulas=aulas)
+    with open('docs/aulas.html', 'w') as f:
+        f.write(out) 
+
+    out = index_page.render(players=players, skills=sorted_skills,aulas = aulas)
+    with open('docs/index.html', 'w') as f:
+        f.write(out) 
+
+    out = regras_page.render()
+    with open('docs/regras.html', 'w') as f:
         f.write(out) 
 

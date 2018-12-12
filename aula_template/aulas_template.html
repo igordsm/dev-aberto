@@ -22,10 +22,6 @@
         <!--[if gt IE 8]><!-->
             <link rel="stylesheet" href="css/layouts/pricing.css">
         <!--<![endif]-->
-
-        <link rel="stylesheet" href="css/layouts/email.css">
-
-        <link rel="stylesheet" href="css/layouts/skills.css"
 </head>
 <body>
 
@@ -48,35 +44,39 @@
 </div>
 
 <div class="l-content information">
-    <h1>Lista de Skills</h1>
+    {% for aul in aulas %}
+    <div class="aula">
+        <h2> Aula {{aul.class}} - {{aul.name}} </h2>
 
-    <table id="skills" class="pure-table pure-table-horizontal">
-        <tbody>
-            {% for sk in skills %}
-            <tr>
-                <td class="">
-                    <img class="skill-img" src="{{ sk.raw_img }}"/>
-                </td>
-                <td>
-                    {{ sk.name }}
-                </td>
-                <td>
-                    {{ sk.requisite }}
-                </td>
-                <td>
-                    <span class="">{{ sk.xp_value }}XP</span>
-                </td>
-                <td>
-                    <span class="{{ sk.type }} skill-type">{{ sk.type }}</span>
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+        Conteúdo:
+        <ul>
+            {%for con in aul.content%}
+            <li> {{con}} </li>
+            {% endfor%}
+            
+        </ul>
 
-    <br/>
+        Atividades:
+        <ul>
+            {%for act in aul.activity %}
+            <li> {{act}} </li>
+            {% endfor%}
+        </ul>
+        {%for x in range(aul.links|length)%}
+        <a href="{{aul.links[x]}}"> {{aul.link_type[x]}}</a> | 
+        {%endfor%}
+    </div>
+    {% endfor%}
 
-</div>
+    
+
+
+
+
+    
+    
+
+</div> <!-- end l-content -->
 
 <div class="footer l-box">
     <p>
@@ -87,6 +87,5 @@
         <a href="https://purecss.io/"> Framework Pure CSS</a> - <a href="https://purecss.io/layouts/"> Tema Pricing Table</a>
     </p>
 </div>
-
 </body>
 </html>

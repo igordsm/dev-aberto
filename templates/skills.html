@@ -1,0 +1,53 @@
+
+{%extends"base.html"%}
+
+{%block content%}
+
+
+
+
+
+<div class="pure-menu pure-menu-horizontal">
+    <a href="index.html" class="pure-menu-heading">
+        <img src="css/gnu-topo.svg" class="logo-topo">
+    </a>
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="aulas.html" class="pure-menu-link">Aulas</a></li>
+        <li class="pure-menu-item"><a href="players.html" class="pure-menu-link">Participantes</a></li>
+        <li class="pure-menu-item pure-menu-selected"><a href="regras.html" class="pure-menu-link">Regras</a></li>
+    </ul>
+</div>
+
+<div class="l-content information">
+    <h1>Lista de Skills</h1>
+
+    <table id="skills" class="pure-table pure-table-horizontal">
+        <tbody>
+            {% for sk in skills %}
+            <tr>
+                <td class="">
+                    <img class="skill-img" src="{{ sk.raw_img }}"/>
+                </td>
+                <td>
+                    {{ sk.name }}
+                </td>
+                <td>
+                    {{ sk.requisite }}
+                </td>
+                <td>
+                    <span class="">{{ sk.xp_value }}XP</span>
+                </td>
+                <td>
+                    <span class="{{ sk.type }} skill-type">{{ sk.type }}</span>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br/>
+
+</div>
+
+{% endblock %}

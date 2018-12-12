@@ -1,37 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive pricing table.">
-    <title>Desenvolvimento Aberto - Insper Engenharia da Computação - 2018-2</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-    <!--<![endif]-->
-    
-    
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="css/layouts/pricing-old-ie.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="css/layouts/pricing.css">
-        <!--<![endif]-->
-
-        <link rel="stylesheet" href="css/layouts/email.css">
-</head>
-<body>
-
-
-
-
-
-
+{%extends"base.html"%}
+{% block content %}
 
 <div class="pure-menu pure-menu-horizontal">
     <a href="index.html" class="pure-menu-heading">
@@ -117,16 +85,6 @@ height="100px">
     {% endfor %}
 </div>
 
-<div class="footer l-box">
-    <p>
-        Disciplina oferecida por Igor Montagner
-    </p>
-    <p>
-        Site desenvolvido usando
-        <a href="https://purecss.io/"> Framework Pure CSS</a> - <a href="https://purecss.io/layouts/"> Tema Pricing Table</a>
-    </p>
-</div>
-
 <script type="text/javascript">
     function parse_hash(ev) {
         let h = window.location.hash.substr(1);
@@ -151,6 +109,4 @@ height="100px">
         document.getElementById(pid).style.display = "none";
     }
 </script>
-
-</body>
-</html>
+{% endblock %}
