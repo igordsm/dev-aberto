@@ -250,6 +250,9 @@ a:visited {
 .badge {
     max-width: 80px;
     max-height: 64px;
+    
+    width: 100rem;
+    height: 100rem;
 }
 
 .badge.miss {
@@ -275,9 +278,33 @@ a:visited {
 
     padding: 10px;
 
-    background: #555555;
-    color: #e7e7e7;
+    background: #FFFFFF;
+    color: #000000;
     border-radius: 10px;
+}
+
+.skill-classroom {
+    border-color: #68c3a3;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.skill-code {
+    border-color: #81cfe0;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.skill-community {
+    border-color: #67809f;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.skill-documentation {
+    border-color: #4ecdc4;
+    border-width: 4px;
+    border-style: solid;
 }
 
 .close {
@@ -327,4 +354,8 @@ a:visited {
     .banner-head {
         font-size: 3em;
     }
+}
+
+.logo-topo {
+    width: 50px;
 }
