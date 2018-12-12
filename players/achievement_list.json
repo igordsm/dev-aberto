@@ -587,6 +587,12 @@
         "skill_id": 3,
         "proof": "",
         "date": "2018-11-28"
+    },
+    {
+        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
+        "skill_id": 27,
+        "proof": "E-mail da Hacktoberfest\"You did it! Congratulations on submitting five (or more) pull requests and contributing to open source projects this month\"",
+        "date": "2018-11-07"
     }
 
 ]
