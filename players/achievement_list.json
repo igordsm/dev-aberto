@@ -364,6 +364,12 @@
         "date": "2018-09-15"
     },
     {
+        "player_uuid": "d9cd3f02-99b1-11e8-85ea-5cc9d3575f63",
+        "skill_id": 8,
+        "proof": "https://www.transifex.com/cataclysm-dda-translators/cataclysm-dda/translate/#pt_BR/stable-cataclysm-dda/41685404?q=translator%3AFormulos+translated_after%3A2018-12-01",
+        "date": "2018-12-08"
+    },
+    {
         "player_uuid": "a1618a30-99b1-11e8-8d30-204747fbf95c",
         "skill_id": 6,
         "proof": "https://github.com/pandas-dev/pandas/pull/22737",
@@ -555,6 +561,12 @@
         "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
         "skill_id": 30,
         "proof": "",
+        "date": "2018-11-12"
+    },
+    {
+        "player_uuid": "644e36d0-99b3-11e8-a4e3-0005165e06fb",
+        "skill_id": 24,
+        "proof": "https://github.com/raulikeda/SoftDes-Desafios/pull/13",
         "date": "2018-11-12"
     },
     {
