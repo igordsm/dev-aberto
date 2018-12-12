@@ -587,12 +587,6 @@
         "skill_id": 3,
         "proof": "",
         "date": "2018-11-28"
-    },
-    {
-        "player_uuid": "9d1e3eba-9b30-11e8-9245-5cc9d39cfa3c",
-        "skill_id": 20,
-        "proof": "https://github.com/joaoppc/SoftDes-Desafios",
-        "date": "2018-11-07"
     }
 
 ]
